@@ -40,6 +40,16 @@ configure :development do
   activate :livereload
 end
 
+# Push to Github
+activate :deploy do |deploy|
+  deploy.method = :git
+  # Optional Settings
+  # deploy.remote = 'custom-remote'
+  # deploy.branch = 'custon-branch'
+  # deploy.strategy = :submodule
+  # deploy.commit_message = 'custom-message'
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

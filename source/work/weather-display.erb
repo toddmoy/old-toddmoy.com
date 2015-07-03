@@ -1,0 +1,98 @@
+---
+title: Weather Display
+description: 
+keywords: 
+client: Content Analyst
+project: CAT Definer
+agency: Viget
+collaborators:
+  - role: Visual Designer
+    name: Mindy Wagner
+  - role: Project Manager
+    name: Ben Eckerson
+  - role: Front-end Developer
+    name: Jeremy Frank
+    name: Nate Hunzaker
+---
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Overview",
+      :body => "<p>I spent two hours exploring UI concepts for a weather app specifically for my needs as a climber. Different from most weather apps, I need to easily see how the weather compares at different locations. Also, temperature doesn't usually sink a trip to the crag, but a high chance of rain will.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 1",
+      :body => "<p>I started with getting a baseline of information onto the page. I initially thought a a card-based grid system would be nice for scalabilty. In this iteration, I decided to allow aliases for locations instead of relying on standard city names. This is more conversational and it also allows for naming geocoordinates when city names aren't precise enough.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 2",
+      :body => "<p>The grid pattern, while compact, made it hard to compare a single day across multiple locations. As a result, I changed this to a list pattern.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 3",
+      :body => "<p>There was more opportunity to structure the content for readability, particularly in landscape view. Small screen views might fall back to something resembling the prior iteration, but I'll need to explore that view later.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 4",
+      :body => "<p>Wow. This went off the rails. I started thinking about how to incorporate cautionary information based on the change of precipitation. Precipitation is the single most important factor in determining whether I go out climbing or not.</p><p>This iteration was aesthetically and conceptually atrocious -- even when less garish colors were used. I moved past it immediately. Note: the data in this example was not updated.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 5",
+      :body => "<p>I liked the idea of using color as a cue, but it needed to be clearer and more meaningful. In this case, I pushed the color of the slats back to white. Only in cases where precipitation is likely to occur is color used.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 6",
+      :body => "<p>Because precipitation is the most important part, I made this the dominant metric and moved temperature range to a secondary position. Not completely happy with how that's treated, but it allowed me to move on.</p><p>The use of color is now tied exclusively to the weather icon and the chance of precipitation, making that relationship a bit more obvious.</p><p>This iteration focused only on one slat — not the entire UI.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 7",
+      :body => "<p>After reassembling all the slats, I turned my attention to the dates. The redundancy cluttered up the UI, so I extracted them into a fixed position header. </p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Iteration 8",
+      :body => "<p>Thinking through the scrolling mechanic more, I realized there's an opportunity to have two predominant interaction methods.</p> <ol> <li><strong>Scrolling</strong> - moves the list up and down</li> <li><strong>Sliding</strong> - moves all dates forward and back in unison</li> </ol><p>To make this interaction more apparent, I needed to offer some cues. I added a vertical gradient between the location names and the date grid. It might need to be played up, but it would communicate the area is slideable.</p> <p>As the user slides, the gradient darkens. The date grid slides underneath with new items entering from the right. While scrolling, the settings button is removed. This helps prevent it from being inadvertently triggered. It also helps the UI look cleaner. Sliding would be indexed so that it snaps to ideal positions.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Next steps",
+      :body => "<p>There's certainly a lot more to explore, but this seems like a reasonable start. Things I want to address further include:</p> <ol> <li>Detail view for a location</li> <li>More accessible caution system for color-blind users</li> <li>Temperature range refactoring</li> <li>Addtional data like humidity, dew point.</li> <li>Page chrome, including an Add location action</li> </ol>
+",
+      :styles => ""
+} %>
+

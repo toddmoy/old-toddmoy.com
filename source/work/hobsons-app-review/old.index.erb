@@ -1,0 +1,130 @@
+---
+title: Modernizing the College Application Review Process
+description: 
+keywords: 
+client: Hobsons
+project: AppReview
+agency: Viget
+collaborators:
+  - role: Visual Designer
+    name: Mark Steinruck
+  - role: Project Manager
+    name: Kevin Powers
+  - role: Front-end Developer
+    name: Jeremy Frank
+---
+
+<%= partial "partials/slides/cover", 
+      :locals => {
+        :title => data.page.title,
+        :description => "<p>Hobsons is the leading provider of software for universities. Their flagship product, ApplyYourself, provides a way for prospective students to apply online. On the backend, the application is forwarded to an admission officer, who coordinates the review and final decision with faculty members.</p><p>Over time, the product managers noticed something interesting occurring: admission officers were sharing their login information with faculty members in order to manage the review entirely online.</p><p>ApplyYourself was never designed for faculty use, so that application was naturally ill-suited to their needs. But this security breech led them to investigate whether an online review tool for faulty would be valuable.</p><p>That's where myself and my team at Viget came in.</p>",
+        :styles => ""
+  } %>
+
+<%= partial "partials/slides/chapter", 
+    :locals => {
+      :title => "Research",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/split-image", 
+    :locals => {
+      :topic => "Interviews &amp; Contextual Inquiry",
+      :headline => "Many different roles participate in the review process.",
+      :body => "<p></p>",
+      :image_url => "img.png", 
+      :image_alt_text => "",
+      :flip => false,
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/split-image", 
+    :locals => {
+      :topic => "Interviews &amp; Contextual Inquiry",
+      :headline => "The process is similar among schools, but each has its own intricacies.",
+      :body => "<p></p>",
+      :image_url => "img.png", 
+      :image_alt_text => "",
+      :flip => true,
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/split-image", 
+    :locals => {
+      :topic => "Interviews &amp; Contextual Inquiry",
+      :headline => "Reviewers use coping strategies to handle the workload.",
+      :body => "<p></p>",
+      :image_url => "img.png", 
+      :image_alt_text => "",
+      :flip => false,
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Product Definition",
+      :headline => "A systems model and set of capabilities defined the scope of the ensuing phase.",
+      :body => "",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/chapter", 
+    :locals => {
+      :title => "Design Highlights",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Design Highlights",
+      :headline => "The Application Review Builder",
+      :body => "",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Interviews &amp; Contextual Inquiry",
+      :headline => "We discovered that the review process involved a lot of choreography among different people.",
+      :body => "I distilled the scenarios of use and pain points into a mental model. The common activities were captured in a sequence diagram that shows the flow of data among different people. Having the client participate in these sessions increased efficiency and contributed to a shared understanding of the problem.",
+      :styles => "background-color: #ddd"
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "The major views and flows were identified prior to wireframing.",
+      :body => "",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "Spec'ing the UI.",
+      :body => "<p>I used annotated greyboxes to describe the underlying patterns that were shared across screens.</p>
+      <p>Microinteractions were illustrated in detail to ensure a clean handoff to the client's developers.</p>",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/quote", 
+    :locals => {
+      :quote => "<p>We noticed users were sharing logins so that they could collaborate within the app. This signaled an opportunity to build a new application that fulfilled this need.</p>",
+      :citation => "John Brown",
+      :styles => ""
+} %>
+
+<%= partial "partials/slides/basic-text", 
+    :locals => {
+      :topic => "Process",
+      :headline => "From insight comes opportunity.",
+      :body => "What first seemed to be a troubling security violation quickly turned into a strategic insight: there was hidden group of people using their software in ways never intended. If Hobsons could design a product unique to their needs, they'd gain a strong competitive advantage. We were brought in to plan and design this app.
+",
+      :styles => ""
+} %>
+
+
+
+
+
+

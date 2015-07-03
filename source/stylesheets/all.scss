@@ -1,50 +1,12 @@
-@import "bourbon/bourbon";
-@import "grid-settings";
-@import "neat/neat";
+@import "global/variables";
+@import "global/mixins";
+@import "global/normalize";
+@import "global/typography";
+@import "global/structure";
+@import "patterns/case-story";
+@import "pages/homepage";
 
-// Typography
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
-// Encloses the page content
-.inset {
-  @include outer-container;
-}
-
-// "Slides"
-.slide {
-  @include span-columns(12);
-  padding: 60px 0;
-}
-
-.slide__copy {
-  @include span-columns(6);
-}
-
-.slide__media {
-  @include span-columns(6);
-}
-
-.slide__title {
-  font-weight: normal;
-}
-
-.demo-col {
-  @include span-columns(1);
-}
-
-.demo-col-2 {
-  @include span-columns(3);
-}
-
-.demo-col-3 {
-  @include span-columns(4);
-}
-
-[class^="demo-col"] {
-  text-align: center;
-  background-color: #ddd;
+* {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }

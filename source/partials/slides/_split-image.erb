@@ -1,0 +1,10 @@
+<section class="slide slide--split-image <% if flip %> slide--flip <% end %>" style="<%= styles %>">
+  <div class="half text">
+    <h2 class="slide__topic"><%= topic %></h2>
+    <h3 class="slide__headline"><%= headline %></h3>
+    <div class="slide__body"><%= body %></div>
+  </div>
+  <div class="half image" style="background-image: url(<%= image_url %>)">
+    <p><%= image_alt_text %></p>
+  </div>
+</section>

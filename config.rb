@@ -44,6 +44,7 @@ end
 @site_name = 'Todd Moy'
 @site_description = 'The Website of Todd Moy'
 @site_default_image = '/assets/avatar.png'
+@site_favicon_image = '/assets/favicon.png'
 @site_owner_twitter_handle = '@toddmoy'
 
 # Automatic image dimensions on image_tag helper

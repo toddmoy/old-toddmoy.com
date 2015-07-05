@@ -1,12 +1,14 @@
 ---
-page_title: Hobsons App Review
-client: Hobsons 
+page_title: Digitizing a Paper Process
+client: Hobsons
 project: App Review
 description: Modernizing the College Application Review Process
-keywords: 
+keywords:
 ---
 
----
+<div class="case-story__hero">
+  <img src="assets/hero.png" alt="cover image" />
+</div>
 
 Hobsons is the leading provider of software for universities. Their flagship product, ApplyYourself, provides a way for prospective students to apply online. On the backend, the application is forwarded to an admission officer, who coordinates the review and final decision with faculty members.
 
@@ -18,17 +20,44 @@ That's where myself and my team at Viget came in.
 
 ---
 
-> We noticed users were sharing logins so that they could collaborate within the app. This signaled an opportunity to build a new application that fulfilled this need.
+<h2>Responsibilities</h2>
+
+<div class="case-story__content__2-col">
+  <ul>
+    <li>User Research</li>
+    <li>Product Design</li>
+    <li>Interface Design</li>
+    <li>Prototyping</li>
+    <li>Usability Testing</li>
+  </ul>
+</div>
 
 ---
 
-What first seemed to be a troubling security violation quickly turned into a strategic insight: there was hidden group of people using their software in ways never intended. If Hobsons could design a product unique to their needs, they'd gain a strong competitive advantage. We were brought in to plan and design this app.
+## Process
 
----
+We started the project off with user research. I communicated the interview findings using a mental model. The top level (green) offered common mental states while the bottom delineated pain points. We later used this diagram to determine which features to build.
 
-I used annotated greyboxes to describe the underlying patterns that were shared across screens.
+<div class="full-bleed">
+  <img src="assets/mental-model.png" alt="mental model" />
+</div>
 
-Microinteractions were illustrated in detail to ensure a clean handoff to the client's developers.
+I started the design phase by identifying the views and flows. While describing scope, it was a useful planning tool: our sprints mapped to discrete sections of the site.
+
+<div class="full-bleed">
+  <img src="assets/sitemap.png" alt="sitemap" />
+</div>
+
+After everything was vetted and agreed-to, I documented the system in detail. Providing formal annotated wireframes was essential since their team was charged with building the appplication after my engagement finished.
+
+<div class="full-bleed">
+  <img src="assets/annotated-wireframes-2.png" alt="annotated wireframes" />
+</div>
+
+<figure>
+  <figcaption>Detail of annotated wireframe</figcaption>
+  <img src="assets/annotated-wireframes-3.png" alt="detail of annotated wireframe" />
+</figure>
 
 ---
 
@@ -36,28 +65,11 @@ We discovered that the review process involved a lot of choreography among diffe
 
 I distilled the scenarios of use and pain points into a mental model. The common activities were captured in a sequence diagram that shows the flow of data among different people. Having the client participate in these sessions increased efficiency and contributed to a shared understanding of the problem.
 
----
-
-## Additional Artifacts
-
-### Mental Model
-
-After synthesizing user research into common trends, I communicated the insights in a mental model. The top level (green) offered common mental states while the bottom delineated pain points. 
-
-We later used this framework to determine which features to build.
-
-![Mental Model](assets/mental-model.png)
-
-### Sitemap
-
-![Sitemap](assets/sitemap.png)
-
----
 
 ## Credits
 
 | ------ | ----- |
 | <strong>Agency</strong> | Viget |
 | <strong>Visual Design</strong> | Mark Steinruck |
-| <strong>Front End Dev</strong> | Jeremy Frank | 
-| <strong>Project Management</strong> | Kevin Powers | 
+| <strong>Front End Dev</strong> | Jeremy Frank |
+| <strong>Project Management</strong> | Kevin Powers |

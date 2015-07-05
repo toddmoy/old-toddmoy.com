@@ -1,8 +1,10 @@
 <% wrap_layout :layout do %>
 
 <article class="case-story__wrapper">
-  <h1 class="case-story__title"><%= current_page.data.page_title %></h1>
-  <p class="case-story__project"><%= current_page.data.client + " " + current_page.data.project %></p>
+  <header class="case-story__header">
+    <h1 class="case-story__title"><%= current_page.data.page_title %></h1>
+    <p class="case-story__project"><%= current_page.data.client + " " + current_page.data.project %></p>
+  </header>
   <div class="case-story__content">
     <%= yield %>
   </div>

@@ -1,41 +1,21 @@
+body.index {
+  background-color: #61636F;
+}
+
 .homepage__content {
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-
-  @media (min-width: $bp-md) {
-    width: 80%;
-  }
-
-  @media (min-width: $bp-lg) {
-    width: 700px;
-  }
-
-  h2 {
-    font-size: $font-size-body * 0.6;
-    font-family: $font-family-body;
-    font-weight: normal;
-    line-height: $line-height-body * 0.7;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 0.1em;
-    margin-bottom: 2em;
-  }
-
-  h3 {
-    font-size: $font-size-body;
-    line-height: $line-height-body * 0.7;
-  }
-
-  hr {
-    border: solid $color-accent-1 3px;
-    margin: 3em auto 3em auto;
-    width: 20px;
-  }
+  height: 100%;
+  display: -ms-flexbox;
+	display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 
   .avatar {
     width: 200px;
     height: 200px;
   }
-
 }

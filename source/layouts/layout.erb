@@ -5,6 +5,7 @@
 
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <title><%= current_page.data.page_title || 'Todd Moy' %></title>
 
@@ -22,6 +23,7 @@
     <meta name="twitter:title" content="<%= current_page.data.page_title || @site_name %>">
     <meta name="twitter:description" content="<%= current_page.data.description || @site_description %>">
     <meta name="twitter:creator" content="@site_owner_twitter_handle">
+
     <!-- Twitter summary card with large image must be at least 280x150px -->
     <!-- <meta name="twitter:image:src" content="http://www.example.com/image.html"> -->
 
@@ -43,9 +45,13 @@
   </head>
 
   <body class="<%= page_classes %>">
+
+    <!-- hide header on homepage -->
+    <% if current_page.url != "/" %>
     <%= partial "partials/global/header" %>
-    <div id="pjax-container">
+    <% end %>
+
     <%= yield %>
-    </div>
+
   </body>
 </html>

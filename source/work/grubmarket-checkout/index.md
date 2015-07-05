@@ -2,12 +2,13 @@
 page_title: Simplifying Checkout
 client: GrubMarket
 project: Checkout
-tagline: Simplifying Checkout
 description: How I streamlined checkout for an online farmers market retailer.
 keywords:
 ---
 
----
+<div class="case-story__hero">
+  <img src="assets/hero.png" alt="cover image" />
+</div>
 
 GrubMarket is to local produce what Etsy is to handmade crafts. The startup enables customers to shop for groceries from local farmers and artisans.
 
@@ -32,6 +33,8 @@ As the UX lead, I simplified the checkout experience by rethinking the page arch
 
 ---
 
+
+
 ## Highlights
 
 ###Cart Organization
@@ -48,11 +51,11 @@ Originally, items in a user's shopping cart were grouped by vendor. By drawing a
   <img src="/work/grubmarket-checkout/assets/checkout-dropdown.png" alt="wireframe of the change delivery method dropdown menu" />
 </figure>
 
-<figure>
-  <figcaption>###</figcaption>
-  <img src="/work/grubmarket-checkout/assets/checkout-dropdown-states.png" alt="" />
-</figure>
+A custom dropdown made it easy to change your delivery date, or select a different shipping method.
 
+<div class="full-bleed">
+  <img src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
+</div>
 
 ---
 

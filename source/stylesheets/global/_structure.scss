@@ -39,6 +39,22 @@ th, td {
   padding: 5px 0;
 }
 
+.avatar {
+  background: #ffffff url("/assets/avatar.png") no-repeat center;
+  background-size: 50%;
+  border-radius: 200px;
+}
+
+.avatar--small {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar--big {
+  width: 200px;
+  height: 200px;
+}
+
 .global-header {
   font-family: $font-family-header;
   text-align: center;

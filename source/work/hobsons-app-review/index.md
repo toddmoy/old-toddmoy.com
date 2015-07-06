@@ -38,25 +38,23 @@ That's where myself and my team at Viget came in.
 
 We started the project off with user research. I communicated the interview findings using a mental model. The top level (green) offered common mental states while the bottom delineated pain points. We later used this diagram to determine which features to build.
 
-<div class="full-bleed">
+<figure class="full-bleed">
+  <figcaption>Mental model</figcaption>
   <img src="assets/mental-model.png" alt="mental model" />
-</div>
+</figure>
 
 I started the design phase by identifying the views and flows. While describing scope, it was a useful planning tool: our sprints mapped to discrete sections of the site.
 
-<div class="full-bleed">
-  <img src="assets/sitemap.png" alt="sitemap" />
-</div>
-
-After everything was vetted and agreed-to, I documented the system in detail. Providing formal annotated wireframes was essential since their team was charged with building the appplication after my engagement finished.
-
-<div class="full-bleed">
-  <img src="assets/annotated-wireframes-2.png" alt="annotated wireframes" />
-</div>
-
 <figure>
-  <figcaption>Detail of annotated wireframe</figcaption>
-  <img src="assets/annotated-wireframes-3.png" alt="detail of annotated wireframe" />
+  <figcaption>Sitemap</figcaption>
+  <img src="assets/sitemap.png" alt="sitemap" />
+</figure>
+
+After everything was vetted and agreed-to, I documented the system in detail. Providing formal annotated wireframes was essential since their team was charged with building the application after my engagement finished.
+
+<figure class="full-bleed">
+  <figcaption>Annotated wireframe samples</figcaption>
+  <img src="assets/annotated-wireframes-1.png" alt="detail of annotated wireframe" />
 </figure>
 
 ---

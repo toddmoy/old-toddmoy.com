@@ -53,9 +53,10 @@ Originally, items in a user's shopping cart were grouped by vendor. By drawing a
 
 A custom dropdown made it easy to change your delivery date, or select a different shipping method.
 
-<div class="full-bleed">
+<figure class="full-bleed">
+  <figcaption>States</figcaption>
   <img src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
-</div>
+</figure>
 
 ---
 

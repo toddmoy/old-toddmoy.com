@@ -2,16 +2,23 @@
 $bp-md: 43.75em;
 $bp-lg: 56.25em;
 
-// Font Faces
+// Font Styles
+// - Body
 $font-family-body: Georgia, Times, serif;
-$font-family-header: 'Helvetica Neue', Helvetica, sans-serif;
-$font-family-headline: Georgia, Times, serif;
+$font-size-body: 1.3em;
+$line-height-body: 1.5;
 $font-color-body: #333;
 
-// Font Metrics
-$font-size-body: 1.3em;
-$font-size-global-header: 1em;
-$line-height-body: 1.5;
+// - Header
+$font-family-header: 'Helvetica Neue', Helvetica, sans-serif;
+$font-size-header: 1em;
+
+// - Headline
+$font-family-headline: Georgia, Times, serif;
+
+// - Footer
+$font-family-footer: 'Helvetica Neue', Helvetica, sans-serif;
+$font-size-footer: 0.5em;
 
 // Other Colors
 $color-accent-1: #f1c40f; // gold-ochre

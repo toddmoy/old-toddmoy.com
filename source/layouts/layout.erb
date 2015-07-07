@@ -55,5 +55,8 @@
 
     <%= yield %>
 
+    <% if current_page.url != "/" %>
+    <%= partial "partials/global/footer" %>
+    <% end %>
   </body>
 </html>

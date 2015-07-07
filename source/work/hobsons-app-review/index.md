@@ -10,13 +10,13 @@ keywords:
   <img src="assets/hero.png" alt="cover image" />
 </div>
 
-Hobsons is the leading provider of software for universities. Their flagship product, ApplyYourself, provides a way for prospective students to apply online. On the backend, the application is forwarded to an admission officer, who coordinates the review and final decision with faculty members.
+A leaked password ignited an idea for a new application.
 
-Over time, the product managers noticed something interesting occurring: admission officers were sharing their login information with faculty members in order to manage the review entirely online.
+Hobsons provides university admissions departments the tools to accept and manage applications submitted by prospective students. Their flagship software, ApplyYourself is in use by a large fraction of undergraduate and graduate schools.
 
-ApplyYourself was never designed for faculty use, so that application was naturally ill-suited to their needs. But this security breech led them to investigate whether an online review tool for faulty would be valuable.
+ApplyYourself was designed for admissions officers, who manually distributed the applications to faculty reviewers. Soon, these officers were sharing their passwords with reviewers to streamline the process. Hobsons noticed this behavior and found a unmet need for an efficient application review tool.
 
-That's where myself and my team at Viget came in.
+That's when they contacted us.
 
 ---
 
@@ -36,11 +36,18 @@ That's where myself and my team at Viget came in.
 
 ## Process
 
-We started the project off with user research. I communicated the interview findings using a mental model. The top level (green) offered common mental states while the bottom delineated pain points. We later used this diagram to determine which features to build.
+After conducting user research, I distilled the findings into a mental model. It identifies the major and minor tasks that users encounter, their pain points, and their coping strategies. This helped us determine where we needed features to fill gaps. It also helped us identify places where fewer features would be acceptable.
 
 <figure class="full-bleed">
   <figcaption>Mental model</figcaption>
   <img src="assets/mental-model.png" alt="mental model" />
+</figure>
+
+While each school had a unique review process, some elements were similar. To help us understand the "common denominator" of activities, I created collaboration diagram. It distills the common activities and handoffs among different people in a review.
+
+<figure>
+  <figcaption>Collaboration diagram</figcaption>
+  <img src="//placehold.it/800x500" alt="" />
 </figure>
 
 I started the design phase by identifying the views and flows. While describing scope, it was a useful planning tool: our sprints mapped to discrete sections of the site.
@@ -49,6 +56,33 @@ I started the design phase by identifying the views and flows. While describing 
   <figcaption>Sitemap</figcaption>
   <img src="assets/sitemap.png" alt="sitemap" />
 </figure>
+
+Early, we explored building a workflow engine that would route applications automatically. We visualized how this could work, which allowed us to quickly determine that this complex feature would have only limited value. It was easy, therefore, to postpone this feature for a later release.
+
+<figure>
+  <figcaption>Workflow diagram</figcaption>
+  <img src="//placehold.it/800x500" alt="" />
+</figure>
+
+We allowed extra time to deliver a fully annotated deck of wireframes. This captured the details Hobsons and Viget had hashed out together over the previous weeks.
+
+<figure>
+  <figcaption>Annotated wireframes</figcaption>
+  <img src="//placehold.it/800x500" alt="" />
+</figure>
+
+We illustrated the micro-interactions that occur on page widgets. This was essential for conveying details to Hobsons' development team.
+
+<figure>
+  <figcaption>Microinteractions</figcaption>
+  <img src="//placehold.it/800x500" alt="" />
+</figure>
+
+
+
+
+
+
 
 After everything was vetted and agreed-to, I documented the system in detail. Providing formal annotated wireframes was essential since their team was charged with building the application after my engagement finished.
 

@@ -64,7 +64,7 @@ th, td {
 .global-header__identity {
   display: block;
   padding: 2em;
-  font-size: $font-size-global-header * 0.7;
+  font-size: $font-size-header * 0.7;
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 0.1em;
@@ -74,4 +74,19 @@ hr {
   border: solid $color-accent-1 3px;
   margin: 3em auto 3em auto;
   width: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: $color-accent-2;
+  color: white;
+  padding: 2em 0 4em 0;
+  font-family: $font-family-footer;
+  font-size: $font-size-footer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer__emoji {
+  font-size: 2em;
 }

@@ -41,21 +41,21 @@ Starting out, I needed to understand how universities managed their review proce
 
 <figure class="full-bleed">
   <figcaption>I used a mental model to organize and present my findings. Later, we used this to plan features to support their needs.</figcaption>
-  <img src="assets/mental-model.png" alt="Mental Model Diagram" />
+  <img src="/assets/placeholder.png" data-src="assets/mental-model.png" alt="Mental Model Diagram" />
 </figure>
 
 Each school had a unique review process. To ensure AppReview supported them, I worked with admissions officers to map the common activities and roles. Later, this helped us prioritize features that were universally needed---and not waste resources building for edge cases.
 
 <figure>
   <figcaption>I used a sequence diagram to show how people collaborated on a review.</figcaption>
-  <img src="assets/sequence-diagram.png" alt="Sequence diagram" />
+  <img src="/assets/placeholder.png" data-src="assets/sequence-diagram.png" alt="Sequence diagram" />
 </figure>
 
 This research culminated in a project vision document, which recapped the research, described how AppReview could work, and offered prioritization suggestions for features.
 
 <figure>
   <figcaption>A concept model helped describe the core components the application needed to support.</figcaption>
-  <img src="assets/concept-model.png" alt="Concept Model" />
+  <img src="/assets/placeholder.png" data-src="assets/concept-model.png" alt="Concept Model" />
 </figure>
 
 ---
@@ -66,19 +66,19 @@ To kickoff the design phase, I brought the client team together to sketch out id
 
 <figure>
   <figcaption>An early sketch of the inbox and the application views.</figcaption>
-  <img src="assets/sketch.png" alt="sketch" />
+  <img src="/assets/placeholder.png" data-src="assets/sketch.png" alt="sketch" />
 </figure>
 
 <figure>
   <figcaption>Because I was remote, I used a dedicated camera so that I could sketch live with the client.</figcaption>
-  <img src="assets/remote-sketching.png" alt="todd with a webcam that's pointing at his sketch" />
+  <img src="/assets/placeholder.png" data-src="assets/remote-sketching.png" alt="todd with a webcam that's pointing at his sketch" />
 </figure>
 
 With a common vision in place, I turned my attention on identifying the flows and views that the application would need. This established scope and allowed us to accurately estimate effort.
 
 <figure>
   <figcaption>Our functional sprints mapped to sections of the application.</figcaption>
-  <img src="assets/sitemap.png" alt="sitemap" />
+  <img src="/assets/placeholder.png" data-src="assets/sitemap.png" alt="sitemap" />
 </figure>
 
 Section by section, I wireframed the necessary views. Each week I held a work share, where I presented what had been completed. Critically, this was attended by their product, development, and QA teams. This kept everyone in the loop and helped us course-correct when needed. Outside of these, we had ad-hoc video conferences and Basecamp discussions.
@@ -87,27 +87,27 @@ Some notable screens from this process:
 
 <figure>
   <figcaption>The inbox was the hub of the user experience.</figcaption>
-  <img src="assets/wireframe-inbox.png" alt="Inbox wireframe" />
+  <img src="/assets/placeholder.png" data-src="assets/wireframe-inbox.png" alt="Inbox wireframe" />
 </figure>
 
 <figure>
   <figcaption>The application detail was where reviewers could access an applicant's information and make their evaluation.</figcaption>
-  <img src="assets/wireframe-application.png" alt="Application detail wireframe" />
+  <img src="/assets/placeholder.png" data-src="assets/wireframe-application.png" alt="Application detail wireframe" />
 </figure>
 
 <figure>
   <figcaption>Admins assign faculty reviewers to applicants. <br />In reviews that occur sequentially, they can define the order of reviews.</figcaption>
-  <img src="assets/wireframe-assign-reviewers.png" alt="Assign reviewers wireframe" />
+  <img src="/assets/placeholder.png" data-src="assets/wireframe-assign-reviewers.png" alt="Assign reviewers wireframe" />
 </figure>
 
 <figure>
   <figcaption>Admins can customize how the applicant's information appears, along with the questions they ask of reviewers.</figcaption>
-  <img src="assets/wireframe-customize-review.png" alt="Customize the review wireframe" />
+  <img src="/assets/placeholder.png" data-src="assets/wireframe-customize-review.png" alt="Customize the review wireframe" />
 </figure>
 
 <figure>
   <figcaption>Microinteractions&mdash;like the states for editing questions&mdash;were described in detail.</figcaption>
-  <img src="assets/wireframe-microinteractions.png" alt="Wireframe of question editing states" />
+  <img src="/assets/placeholder.png" data-src="assets/wireframe-microinteractions.png" alt="Wireframe of question editing states" />
 </figure>
 
 It's worth noting that I don't always annotate wireframes in this way. On more agile projects, frequent communication can substitute for this level of detail. But because this was a handoff project, I felt it necessary to capture and relay the information that wasn't immediately evident in the UI.
@@ -120,7 +120,7 @@ About midway through the design phase, we had enough screens to test the core fu
 
 <figure>
   <figcaption>Trello allowed each of us to record observations into a shared space.<br />Together, we'd review them, assign severity, and define fixes.</figcaption>
-  <img src="assets/trello.png" alt="Screenshot of a Trello card" />
+  <img src="/assets/placeholder.png" data-src="assets/trello.png" alt="Screenshot of a Trello card" />
 </figure>
 
 Based on the testing, we refined the interface and got to a solid first release. Our visual designer comped the screens and created a style guide; our Front-end Developer built the screens out. Hobsons took these assets and engineered the application.  

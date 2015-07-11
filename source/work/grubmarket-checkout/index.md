@@ -47,14 +47,14 @@ The new design consolidates four screens into one, with no loss of functionality
 
 <figure>
   <figcaption>Prior design (left) and new design (right)</figcaption>
-  <img src="assets/consolidation.png" alt="Comparison of old and new checkout designs" />
+  <img  src="/assets/placeholder.png" data-src="assets/consolidation.png" alt="Comparison of old and new checkout designs" />
 </figure>
 
 <a id="final-design" />
 
 <figure>
   <figcaption>Wireframe of the checkout screen. <br />Personal details and billing information are pre-populated after the first order.</figcaption>
-  <img src="/work/grubmarket-checkout/assets/checkout.png" />
+  <img src="/assets/placeholder.png" data-src="/work/grubmarket-checkout/assets/checkout.png" />
 </figure>
 
 ---
@@ -89,12 +89,12 @@ So, the new design preselects GrubMarket Delivery and deemphasizes the other opt
 
 <figure>
   <figcaption>Revised shipping section.</figcaption>
-  <img src="assets/new-shipping.png" alt="new shipping screen" />
+  <img src="/assets/placeholder.png" data-src="assets/new-shipping.png" alt="new shipping screen" />
 </figure>
 
 <figure class="full-bleed">
   <figcaption>Users can still change their delivery date and method using a custom dropdown.</figcaption>
-  <img src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
+  <img src="/assets/placeholder.png" data-src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
 </figure>
 
 **Order Review Screen**

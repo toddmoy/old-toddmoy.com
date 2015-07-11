@@ -1,0 +1,15 @@
+body.work_index {
+  background-color: $color-accent-2;
+  text-align: center;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.work_index__content {
+  margin-top: 3em;
+  ul {
+    list-style-type: none;
+  }
+}

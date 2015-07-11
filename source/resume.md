@@ -73,3 +73,32 @@ Designed feature and content-driven sites that encourage middle and high school 
 ### BCBSNC Web Strategy
 
 Along with a team of strategists, helped develop a comprehensive plan to help BCBSNC better meet customer needs online. In the discovery phase, I conducted user research ranging from customer interviews to double-jacking with customer service representatives. In the solution phase, I designed and tested a patient portal in addition to helping define the roles and responsibilities for their Web Office.
+
+
+## Writing
+
+[Building Pearl in Two Days](http://viget.com/flourish/building-pearl-in-two-days)
+
+[Twitter Bootstrap 3.0 Stencils for Omnigraffle](http://viget.com/inspire/twitter-bootstrap-3.0-stencils-for-omnigraffle)
+
+[How to Run Quick, Cheap Usability Tests Using Mechanical Turk](http://viget.com/inspire/how-to-run-quick-and-cheap-usability-tests-using-mechanical-turk)
+
+[Power Tools for Content Inventories](http://viget.com/inspire/power-tools-for-content-inventories)
+
+[What Blackhat and the NSA Can Teach Us About Content Audits](http://viget.com/advance/using-google-advanced-search-for-content-audits-and-inventories)
+
+[Building a Traffic Heatmap with Google Analytics and R](http://viget.com/inspire/how-to-build-a-traffic-heatmap-using-google-analytics-and-r)
+
+[How to Visualize Your Site as a Treemap](http://viget.com/inspire/how-to-visualize-your-site-as-a-treemap)
+
+[Running Online Divide-the-Dollar Studies using WebSort](http://viget.com/inspire/online-divide-the-dollar-tool)
+
+[3 Tactics for Improving Wireframe Presentations](http://viget.com/inspire/how-to-present-wireframes)
+
+[10 Omnigraffle tips you might not know (plus one bonus!)](http://viget.com/inspire/omnigraffle-tips-and-tricks)
+
+[Using Remember the Milk as a Capture and Coding Tool](http://viget.com/inspire/using-remember-the-milk-as-a-capture-and-coding-tool)
+
+[How to Make Master Objects in Omnigraffle](http://viget.com/inspire/how-to-make-master-objects-in-omnigraffle)
+
+[Using VoiceOver for Low-Cost Accessibility Testing](http://viget.com/inspire/using-voiceover-for-low-cost-accessibility-testing)

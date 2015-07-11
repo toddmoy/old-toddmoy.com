@@ -16,7 +16,7 @@ Rumble Games is an up-and-coming publisher focused on becoming the leading onlin
 
 <h2>Responsibilities</h2>
 
-<div class="case-story__content__2-col">
+<div class="main-content__2-col">
   <ul>
     <li>Interface Design</li>
     <li>Info Architecture</li>
@@ -26,30 +26,64 @@ Rumble Games is an up-and-coming publisher focused on becoming the leading onlin
 
 ---
 
+## Mental model
+
+I spoke with avid gamers to understand the thought processes that go into playing a game. I translated these findings into a mental model, which served as a "checklist" to make sure the content addressed their questions.
+
+<figure>
+  <figcaption>Mental Model</figcaption>
+  <img src="assets/mental-model.png" alt="" />
+</figure>
+
+
+## Sitemap
+
 The site information architecture needed to support games in different stages of maturity. Some may be accessible only to invited beta testers while others are open for all. Our IA allows each game's content and functionality to evolve as it progresses from a teaser to a fully operational game.
 
 <figure>
   <figcaption>Sitemap</figcaption>
-  <img src="//placehold.it/800x500" alt="" />
+  <img src="assets/sitemap.png" alt="" />
 </figure>
+
+## Homepage
 
 The homepage balances the need to introduce Rumble Games, the company, with the need to introduce their game titles. The new layout promotes the newest game, while still allowing users easy access to existing games, support, and community forums
 
 <figure>
   <figcaption>Homepage wireframe</figcaption>
-  <img src="//placehold.it/800x500" alt="" />
+  <img src="assets/homepage.png" alt="" />
 </figure>
+
+---
+
+## Game Hubs
 
 The game page is the landing page for an individual title. It tells the story of the game - its characters and its features, and offers users multiple actions (play, interact, learn).
 
 <figure>
-  <figcaption>Game page wireframe</figcaption>
-  <img src="//placehold.it/800x500" alt="" />
+  <figcaption>Early sketch</figcaption>
+  <img src="assets/sketch.png" alt="" />
 </figure>
+
+
+<figure>
+  <figcaption>Game page wireframe</figcaption>
+  <img src="assets/game.png" alt="" />
+</figure>
+
+<figure class="full-bleed">
+  <figcaption>IA evolution for a game</figcaption>
+  <img src="assets/game-page-ia.png" alt="" />
+</figure>
+
+
+---
+
+## Navigation System
 
 The navigation offers a flexible, scalable structure that can grow as Rumble adds new titles. The navigation has multiple states, depending on whether or not a user is logged in to the Rumble system.
 
 <figure>
-  <figcaption>Navigation example</figcaption>
-  <img src="//placehold.it/800x500" alt="" />
+  <figcaption>Navigation states</figcaption>
+  <img src="assets/nav.png" alt="" />
 </figure>

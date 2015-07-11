@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-  // font-family: $font-family-headline;
   font-size: $font-size-body * 2;
   line-height: $line-height-body;
   @media (min-width: $bp-md) {
@@ -24,34 +23,21 @@ h1 {
 }
 
 h2 {
-  font-family: $font-family-headline;
-  font-size: $font-size-body * 1.625;
-  line-height: $line-height-body * 0.9;
-  @media (min-width: $bp-md) {
-    font-size: $font-size-body * 2;
-    line-height: $line-height-body * 0.9;
-  }
-  @media (min-width: $bp-lg) {
-    font-size: $font-size-body * 2.25;
-    line-height: $line-height-body;
-  }
+  font-size: $font-size-body * 0.6;
+  font-family: $font-family-body;
+  font-weight: normal;
+  line-height: $line-height-body * 0.7;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 2em;
 }
 
 h3 {
-  font-family: $font-family-headline;
-  font-weight: normal;
-  text-align: center;
-
-  font-size: $font-size-body * 1.375;
-  line-height: $line-height-body * 0.9;
-  @media (min-width: $bp-md) {
-    font-size: $font-size-body * 1.5;
-    line-height: $line-height-body;
-  }
-  @media (min-width: $bp-lg) {
-    font-size: $font-size-body * 1.75;
-    line-height: $line-height-body;
-  }
+  font-family: $font-family-body;
+  font-weight: bold;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
 }
 
 h4 {

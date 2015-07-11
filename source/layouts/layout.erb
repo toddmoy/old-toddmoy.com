@@ -48,14 +48,13 @@
 
   <body class="<%= page_classes %>">
 
-    <!-- hide header on homepage -->
-    <% if current_page.url != "/" %>
+    <% if (current_page.url != "/") && (current_page.url != "/work/") %>
     <%= partial "partials/global/header" %>
     <% end %>
 
     <%= yield %>
 
-    <% if current_page.url != "/" %>
+    <% if (current_page.url != "/") && (current_page.url != "/work/") %>
     <%= partial "partials/global/footer" %>
     <% end %>
   </body>

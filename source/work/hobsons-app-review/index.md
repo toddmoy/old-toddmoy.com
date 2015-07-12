@@ -127,7 +127,7 @@ Based on the testing, we refined the interface and got to a solid first release.
 
 ---
 
-### Takeaways
+## Takeaways
 
 Every project teaches me something and this one was no different. Three things this project taught me were:
 

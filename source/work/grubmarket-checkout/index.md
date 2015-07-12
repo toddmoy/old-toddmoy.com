@@ -1,5 +1,5 @@
 ---
-page_title: Simplifying Checkout
+page_title: Simplifying & Streamlining
 client: GrubMarket
 project: Checkout
 description: How I streamlined checkout for an online farmers market retailer.

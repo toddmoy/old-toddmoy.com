@@ -12,7 +12,7 @@ layout: work
   </li>
   <li>
     <a href="/work/grubmarket-checkout/">
-      <h2>Simplifying Checkout</h2>
+      <h2>Simplifying &amp; Streamlining</h2>
       <p>Grubmarket Checkout</p>
     </a>
   </li>

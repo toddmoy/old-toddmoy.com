@@ -116,7 +116,7 @@ It's worth noting that I don't always annotate wireframes in this way. On more a
 
 ## Testing
 
-About midway through the design phase, we had enough screens to test the core functionality of the site. I set up an online clickable prototype and ran moderated, task-based usability tests using WebEx. The client team participated as silent observers. After each test, we held a brief recap where we discussed our observations.
+About midway through the design phase, we had enough screens to test the core functionality of the app. I set up an online clickable prototype and ran moderated, task-based usability tests using WebEx. The client team participated as silent observers. After each test, we held a brief recap where we discussed our observations.
 
 <figure>
   <figcaption>Trello allowed each of us to record observations into a shared space.<br />Together, we'd review them, assign severity, and define fixes.</figcaption>

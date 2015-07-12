@@ -2,5 +2,5 @@
 //= require "jquery.unveil"
 
 $(document).ready(function(){
-  $("img").unveil();
+  $("img").unveil(200);
 });

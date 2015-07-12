@@ -7,7 +7,7 @@ keywords:
 ---
 
 <div class="case-story__hero">
-  <img src="assets/hero.png" alt="cover image" />
+  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
 </div>
 
 GrubMarket is to local produce what Etsy is to handmade crafts. This online farmers market enables customers to shop for groceries, which it then delivers for free.
@@ -43,24 +43,6 @@ This research confirmed that there were problems with the way information was or
 
 ## Design
 
-The new design consolidates four screens into one, with no loss of functionality. Returning users can check out with a single click.
-
-<figure>
-  <figcaption>Prior design (left) and new design (right)</figcaption>
-  <img  src="/assets/placeholder.png" data-src="assets/consolidation.png" alt="Comparison of old and new checkout designs" />
-</figure>
-
-<a id="final-design" />
-
-<figure>
-  <figcaption>Wireframe of the checkout screen. <br />Personal details and billing information are pre-populated after the first order.</figcaption>
-  <img src="/assets/placeholder.png" data-src="/work/grubmarket-checkout/assets/checkout.png" />
-</figure>
-
----
-
-## Getting There
-
 My first step was to understand where I could reduce complexity. The current experience was divided into four screens: Billing Address, Shipping Information, Order review, and Stripe Payment Modal.
 
 **Shipping Information Screen**
@@ -69,7 +51,7 @@ The second screen---shipping information---was the biggest offender. Items in th
 
 <figure>
   <figcaption>Prior shipping section.</figcaption>
-  <img src="assets/prior-shipping.png" alt="prior shipping screen" />
+  <img src="/assets/placeholder-800.svg" data-src="assets/prior-shipping.png" alt="prior shipping screen" />
 </figure>
 
 During checkout, however, users care less about _who is selling them something_ than they do about _when they're going to get it_ and _how much will it cost_.
@@ -85,16 +67,16 @@ Next target: shipping options. For each grouping on the page, the user was prese
 
 Based on order analytics, people nearly always chose Grubmarket Delivery. In addition, Grubmarket wanted to drive more users to choose that option.
 
-So, the new design preselects GrubMarket Delivery and deemphasizes the other options. It also preselects the earliest available delivery date. Users who had to make two decisions before now need to make none.
+So, the new design preselects GrubMarket Delivery and deemphasizes the other options. It also preselects the earliest available delivery date. By using smart defaults, users who had to make two decisions before now need to make none.
 
 <figure>
   <figcaption>Revised shipping section.</figcaption>
-  <img src="/assets/placeholder.png" data-src="assets/new-shipping.png" alt="new shipping screen" />
+  <img src="/assets/placeholder-800.svg" data-src="assets/new-shipping.png" alt="new shipping screen" />
 </figure>
 
 <figure class="full-bleed">
   <figcaption>Users can still change their delivery date and method using a custom dropdown.</figcaption>
-  <img src="/assets/placeholder.png" data-src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
+  <img src="/assets/placeholder-2000.svg" data-src="assets/checkout-dropdown-states.png" alt="checkout dropdown states" />
 </figure>
 
 **Order Review Screen**
@@ -105,9 +87,27 @@ The other screen maintained a lot of billing-oriented information too. Could the
 
 It turns out yes, they can. What's more, the revised product listing performs the same job as the order review listing. By merging these screens together, I was down to two screens.
 
+Applying progressive disclosure to less commonly visited fields--delivery instructions, for example--allowed me to further reduce the visual weight.
+
 **Billing Information Screen**
 
-The next logical step, you might have guessed, was to merge the billing information with the other screen. <a href="#final-design">Done</a>.
+The next logical step, you might have guessed, was to merge the billing information with the other screen. It was a natural fit.
+
+---
+
+## Result
+
+The new design consolidates four screens into one, with no loss of functionality. Returning users can check out with a single click.
+
+<figure>
+  <figcaption>Prior design (left) and new design (right)</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/consolidation.png" alt="Comparison of old and new checkout designs" />
+</figure>
+
+<figure>
+  <figcaption>Wireframe of the checkout screen. <br />Personal details and billing information are pre-populated after the first order.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="/work/grubmarket-checkout/assets/checkout.png" />
+</figure>
 
 ---
 

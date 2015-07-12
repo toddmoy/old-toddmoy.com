@@ -131,6 +131,10 @@ hr {
   //   line-height: $line-height-body * 0.7;
   // }
 
+  ol, ul {
+    padding-left: 50px;
+  }
+
   li {
     margin-bottom: 1em;
   }

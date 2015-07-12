@@ -12,78 +12,159 @@ keywords:
 
 Rumble Games is an up-and-coming publisher focused on becoming the leading online developer of premium quality, free-to-play games. Backed in part by Google Ventures and led by an executive team with 70+ years of industry experience, Rumble's promise to shake up the gaming industry was incentive enough for Viget to help the start-up make its introduction to the world.
 
+I led the UX effort for this project, with close collaboration with visual designers.
+
 ---
 
-<h2>Responsibilities</h2>
+<h2>Key Responsibilities</h2>
 
 <div class="main-content__2-col">
   <ul>
+    <li>User Research</li>
+    <li>Information Architecture</li>
     <li>Interface Design</li>
-    <li>Info Architecture</li>
     <li>Content Strategy</li>
   </ul>
 </div>
 
 ---
 
-## Mental model
+## Research
 
-I spoke with avid gamers to understand the thought processes that go into playing a game. I translated these findings into a mental model, which served as a "checklist" to make sure the content addressed their questions.
+I spoke with avid gamers to understand the thought processes that go into evaluating a new game. This produced a set of questions that the site would need to anticipate. I translated these findings into a mental model, which drove the content strategy.
 
 <figure>
   <figcaption>Mental Model</figcaption>
   <img src="assets/mental-model.png" alt="" />
 </figure>
 
+---
 
-## Sitemap
+## Information Architecture
 
-The site information architecture needed to support games in different stages of maturity. Some may be accessible only to invited beta testers while others are open for all. Our IA allows each game's content and functionality to evolve as it progresses from a teaser to a fully operational game.
+The site had two purposes. First, it needed to act as the corporate site for Rumble Games. Second, it needed to provide microsites for the company's growing portfolio of games. This duality influenced the architecture of the site as well as the navigation model.
 
-<figure>
-  <figcaption>Sitemap</figcaption>
-  <img src="assets/sitemap.png" alt="" />
+**Corporate site**
+
+As a young startup, the corporate site had three main purposes. First, it needed to help people understand who Rumble Games was. Second, it needed to communicate Rumble's game publishing platform to other developers. Third, it needed to attract talent. These needs directly translated to the bulk of the corporate site.
+
+<figure class="full-bleed">
+  <figcaption>The corporate site. Some features like My Account and Forums technically "lived" at the root of the site, which is why they were included here.</figcaption>
+  <img src="/assets/placeholder-2000.svg" data-src="assets/sitemap.png" alt="" />
 </figure>
 
-## Homepage
+**Game Microsites**
+
+At the time, only one game was in active development---Kings Road (codename: Valor). We knew that more would be added over time. In addition, we knew that each game could be in one of three stages of maturity:
+
+* Teaser - minimal content and features
+* Closed beta - beta email capture, private login, and news
+* Full release - open login, forums, support, gameplay guides, ecommerce, and more...
+
+The game microsite IA, therefore, was designed to allow content and features to be rolled out in a thoughtful way.
+
+<figure class="full-bleed">
+  <figcaption>Each game microsite could evolve as features like online access, community forums, support, and news were added.</figcaption>
+  <img src="/assets/placeholder-2000.svg" data-src="assets/game-page-ia.png" alt="" />
+</figure>
+
+**Navigation System**
+
+As you might imagine, the nav also supports these two architectures.
+
+In the corporate section, the nav provides access to information about Rumble and their catalog of games.
+
+<figure>
+  <figcaption>Corporate navigation states.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/nav-corp.png" alt="corporate navigation states" />
+</figure>
+
+Once you are within a game microsite, however, the navigation becomes game-specific. The left-hand dropdown consolidates the corporate nav, allowing the game-specific nav to take the lead.
+
+<figure>
+  <figcaption>Game microsite navigation states.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/nav-game.png" alt="game navigation states" />
+</figure>
+
+---
+
+## Page Design
+
+**Homepage**
 
 The homepage balances the need to introduce Rumble Games, the company, with the need to introduce their game titles. The new layout promotes the newest game, while still allowing users easy access to existing games, support, and community forums
 
 <figure>
   <figcaption>Homepage wireframe</figcaption>
-  <img src="assets/homepage.png" alt="" />
+  <img src="/assets/placeholder-800.svg" data-src="assets/homepage.png" alt="" />
 </figure>
+
+<figure>
+  <figcaption>Homepage wireframe and comp.</figcaption>
+  <img  src="/assets/placeholder-800.svg" data-src="assets/homepage-wireframe-comp.png" alt="" />
+</figure>
+
+**Publishing**
+
+The Publishing section presents the technical infrastructure that other game publishers can build upon.
+
+<figure>
+  <figcaption>Publishing wireframe and comp.</figcaption>
+  <img  src="/assets/placeholder-800.svg" data-src="assets/publishing-wireframe-comp.png" alt="" />
+</figure>
+
+**Careers**
+
+The Careers section describes the types of candidates Rumble seeks and what working there is like.
+
+<figure>
+  <figcaption>Careers wireframe and comp.</figcaption>
+  <img  src="/assets/placeholder-800.svg" data-src="assets/careers-wireframe-comp.png" alt="" />
+</figure>
+
+**Game Microsites**
+
+Each game had a self-contained microsite. While the functionality across the games was similar, the styling and aesthetics could be customized per game.
+
+<figure>
+  <figcaption>Game homepage and visual comp. In design, we unified the hero area and the storyline.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/game-wireframe-comp.png" alt="game wireframe and comp" />
+</figure>
+
+Generating buzz about the game was crucial, particularly in the closed beta phase. To do so, we wanted to help gamers get a sense of what the game is like using an immersive storyline.
+
+When developing the content strategy, I was inspired by movie trailers and traditional drama that present the following elements in succession:
+
+1. _Exposition_ - describes the setting, the protagonist, and supporting characters
+2. _Crisis_ - introduces conflict, opposition, and challenge
+3. _Quest_ - presents your objective and previews what you'll encounter
+
+<figure>
+  <figcaption>The storyline on the game homepage.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/game-storyline.png" alt="game storyline" />
+</figure>
+
+To support the game microsite evolution, the homepage could also evolve as content and functionality became  available.
+
+<figure>
+  <figcaption>The shift from teaser to closed beta was the most dramatic because teasers often don't have much content defined. The shift from closed beta to full release focused more on adding new site sections. </figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/game-page-evolution.png" alt="" />
+</figure>
+
+Interior pages followed similar conventions. The site used third-party services for forums, blog commenting, and support. In these cases, simply blocking out regions was sufficient.
+
+<figure>
+  <figcaption>Interior page wireframes. Regions in blue were third-party functionality that we had limited control over.</figcaption>
+  <img  src="/assets/placeholder-800.svg" data-src="assets/game-interior.png" alt="game interior pages" />
+</figure>
+
 
 ---
 
-## Game Hubs
+## Takeaways
 
-The game page is the landing page for an individual title. It tells the story of the game - its characters and its features, and offers users multiple actions (play, interact, learn).
+Every project teaches me something and this one was no different. Three things this project taught me were:
 
-<figure>
-  <figcaption>Early sketch</figcaption>
-  <img src="assets/sketch.png" alt="" />
-</figure>
-
-
-<figure>
-  <figcaption>Game page wireframe</figcaption>
-  <img src="assets/game.png" alt="" />
-</figure>
-
-<figure class="full-bleed">
-  <figcaption>IA evolution for a game</figcaption>
-  <img src="assets/game-page-ia.png" alt="" />
-</figure>
-
-
----
-
-## Navigation System
-
-The navigation offers a flexible, scalable structure that can grow as Rumble adds new titles. The navigation has multiple states, depending on whether or not a user is logged in to the Rumble system.
-
-<figure>
-  <figcaption>Navigation states</figcaption>
-  <img src="assets/nav.png" alt="" />
-</figure>
+1. Plan for evolution if you can anticipate the change.
+1. In the best cases, content strategy, UX, and visual design are deeply entwined.
+1. Understand your user's overt and latent questions, then make the design answer those.

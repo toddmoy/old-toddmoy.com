@@ -35,7 +35,7 @@ I spoke with avid gamers to understand the thought processes that go into evalua
 
 <figure>
   <figcaption>Mental Model</figcaption>
-  <img src="assets/mental-model.png" alt="" />
+  <img src="/assets/placeholder-800.svg" data-src="assets/mental-model.png" alt="" />
 </figure>
 
 ---
@@ -75,14 +75,14 @@ As you might imagine, the nav also supports these two architectures.
 In the corporate section, the nav provides access to information about Rumble and their catalog of games.
 
 <figure>
-  <figcaption>Corporate navigation states.</figcaption>
+  <figcaption>Corporate navigation. </figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/nav-corp.png" alt="corporate navigation states" />
 </figure>
 
 Once you are within a game microsite, however, the navigation becomes game-specific. The left-hand dropdown consolidates the corporate nav, allowing the game-specific nav to take the lead.
 
 <figure>
-  <figcaption>Game microsite navigation states.</figcaption>
+  <figcaption>Game microsite navigation.</figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/nav-game.png" alt="game navigation states" />
 </figure>
 
@@ -106,7 +106,7 @@ The homepage balances the need to introduce Rumble Games, the company, with the 
 
 **Publishing**
 
-The Publishing section presents the technical infrastructure that other game publishers can build upon.
+The Publishing section presents the technical infrastructure that other game publishers can build upon. Its main purpose is lead generation.
 
 <figure>
   <figcaption>Publishing wireframe and comp.</figcaption>
@@ -133,21 +133,21 @@ Each game had a self-contained microsite. While the functionality across the gam
 
 Generating buzz about the game was crucial, particularly in the closed beta phase. To do so, we wanted to help gamers get a sense of what the game is like using an immersive storyline.
 
-When developing the content strategy, I was inspired by movie trailers and traditional drama that present the following elements in succession:
+When structuring the storyline, I took a cue from traditional drama and organized the content like so:
 
-1. _Exposition_ - describes the setting, the protagonist, and supporting characters
+1. _Exposition_ - describes the setting, protagonist, and supporting characters
 2. _Crisis_ - introduces conflict, opposition, and challenge
-3. _Quest_ - presents your objective and previews what you'll encounter
+3. _Quest_ - presents the objective and foreshadows what will be encountered
 
 <figure>
   <figcaption>The storyline on the game homepage.</figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/game-storyline.png" alt="game storyline" />
 </figure>
 
-To support the game microsite evolution, the homepage could also evolve as content and functionality became  available.
+To support the game microsite evolution, the homepage could also change as content and functionality became  available.
 
 <figure>
-  <figcaption>The shift from teaser to closed beta was the most dramatic because teasers often don't have much content defined. The shift from closed beta to full release focused more on adding new site sections. </figcaption>
+  <figcaption>The shift from teaser to closed beta focused on adding the storyline. The shift from closed beta to full release focused more on adding new site sections. </figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/game-page-evolution.png" alt="" />
 </figure>
 
@@ -166,5 +166,5 @@ Interior pages followed similar conventions. The site used third-party services 
 Every project teaches me something and this one was no different. Three things this project taught me were:
 
 1. Plan for evolution if you can anticipate the change.
-1. In the best cases, content strategy, UX, and visual design are deeply entwined.
+1. In the best instances, content strategy, UX, and visual design are inseparable.
 1. Understand your user's overt and latent questions, then make the design answer those.

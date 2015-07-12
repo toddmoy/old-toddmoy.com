@@ -161,17 +161,40 @@ hr {
   }
 }
 
+.button {
+  display: inline-block;
+  border: solid #000 2px;
+  padding: 0.7em 1em;
+  text-transf: uppercase;
+  font-weight: normal;
+  letter-spacing: 2px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 .footer {
+  font-family: $font-family-footer;
+  font-size: $font-size-footer;
   text-align: center;
   background-color: $color-accent-2;
   color: white;
-  padding: 2em 0 4em 0;
-  font-family: $font-family-footer;
-  font-size: $font-size-footer;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  padding: 4em 0 4em 0;
+  .button {
+    text-transform: uppercase;
+    margin: 2em auto 0 auto;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: $color-accent-2;
+    }
+  }
 }
 
-.footer__emoji {
-  font-size: 2em;
+.footer__emoji__text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 0 10px;
 }

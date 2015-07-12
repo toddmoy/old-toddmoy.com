@@ -16,7 +16,9 @@ Historically, admissions officers received applications, then distributed printo
 
 Besides being paper intensive, the process was messy. Admissions officers had no insight into progress and had to hunt down reviewers, nag them, reassign applicants, and so on. Once they got the information back, they had the arduous task of manually entering the evaluations.
 
-Clearly there had to be a better way. That's when they contacted us to envision and build AppReview.
+Clearly there had to be a better way. That's when Hobsons contacted Viget to envision and build AppReview.
+
+On this project, I led the product vision, design, and testing.
 
 ---
 
@@ -37,14 +39,14 @@ Clearly there had to be a better way. That's when they contacted us to envision 
 
 ## Research
 
-Starting out, I needed to understand how universities managed their review process. So, I interviewed users and observed how they conducted reviews. This helped me understand the strategies they used for dealing with a large, complex task.
+Starting out, I needed to understand how universities managed their review process. So, I interviewed admissions officers and faculty to understand their customs. During these sessions, I observed them conduct mock reviews. This helped me understand the strategies they used for dealing with a large, complex task.
 
 <figure class="full-bleed">
   <figcaption>I used a mental model to organize and present my findings. Later, we used this to plan features to support their needs.</figcaption>
   <img src="/assets/placeholder-2000.svg" data-src="assets/mental-model.png" alt="Mental Model Diagram" />
 </figure>
 
-Each school had a unique review process. To ensure AppReview supported them, I worked with admissions officers to map the common activities and roles. Later, this helped us prioritize features that were universally needed---and not waste resources building for edge cases.
+Each school had a unique review process. To ensure AppReview supported them, I worked with admissions officers to distill the common activities and roles. Later, this helped us prioritize features that were universally needed---and not waste resources building for edge cases.
 
 <figure>
   <figcaption>I used a sequence diagram to show how people collaborated on a review.</figcaption>
@@ -131,6 +133,6 @@ Based on the testing, we refined the interface and got to a solid first release.
 
 Every project teaches me something and this one was no different. Three things this project taught me were:
 
-1. Watch what people do. Features in the interface like _starring_, _foldering_, and _private notes_ were a direct response to seeing how people reviewed applications. No one asked for these features outright, but they appreciated them.
+1. Watch what people do. Features like _starring_, _foldering_, and _private notes_ were a direct response to seeing how people reviewed applications. No one asked for these features outright, but they appreciated them.
 1. Plan frequent, recurring work shares. This helps gets people engaged, helps course-correct when necessary, and keeps project momentum high.
 1. Get concrete. Sketching live with the client team allowed us to explore ideas quickly, with less room for misinterpretation.

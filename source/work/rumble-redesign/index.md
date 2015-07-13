@@ -10,7 +10,9 @@ keywords:
   <img src="assets/hero.png" alt="cover image" />
 </div>
 
-Rumble Games is an up-and-coming publisher focused on becoming the leading online developer of premium quality, free-to-play games. Backed in part by Google Ventures and led by an executive team with 70+ years of industry experience, Rumble's promise to shake up the gaming industry was incentive enough for Viget to help the start-up make its introduction to the world.
+Rumble Games is an up-and-coming publisher focused on becoming the leading online developer of premium quality, free-to-play games.
+
+Backed in part by Google Ventures and led by an executive team with 70+ years of industry experience, Rumble's promise to shake up the gaming industry was incentive enough for Viget to help the start-up make its introduction to the world.
 
 I led the UX effort for this project, with close collaboration with visual designers.
 

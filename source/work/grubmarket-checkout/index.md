@@ -10,7 +10,7 @@ keywords:
   <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
 </div>
 
-GrubMarket is to local produce what Etsy is to handmade crafts. This online farmers market enables customers to shop for groceries, which it then delivers for free.
+GrubMarket is to local produce what Etsy is to handmade crafts. This online store enables customers to shop for groceries from local farmers and artisans, which it then delivers for free.
 
 After hearing feedback that their checkout was cumbersome and unintuitive, they asked Viget to streamline this experience.
 
@@ -67,7 +67,7 @@ Next target: shipping options. For each grouping on the page, the user was prese
 
 Based on order analytics, people nearly always chose Grubmarket Delivery. In addition, Grubmarket wanted to drive more users to choose that option.
 
-So, the new design preselects GrubMarket Delivery and deemphasizes the other options. It also preselects the earliest available delivery date. By using smart defaults, users who had to make two decisions before now need to make none.
+So, the new design preselects GrubMarket Delivery and deemphasizes the other options. It also preselects the earliest available delivery date.
 
 <figure>
   <figcaption>Revised shipping section.</figcaption>
@@ -85,13 +85,13 @@ With the shipping screen shortened, I turned my attention to the order review sc
 
 The other screen maintained a lot of billing-oriented information too. Could these be combined?
 
-It turns out yes, they can. What's more, the revised product listing performs the same job as the order review listing. By merging these screens together, I was down to two screens.
+It turns out they could. What's more, the revised product listing performs the same job as the order review listing. By merging these screens together, I was down to two screens.
 
 Applying progressive disclosure to less commonly visited fields--delivery instructions, for example--allowed me to further reduce the visual weight.
 
 **Billing Information Screen**
 
-The next logical step, you might have guessed, was to merge the billing information with the other screen. It was a natural fit.
+The next logical step, you might have guessed, was to merge the billing information with the other screen. It was a natural fit. Done.
 
 ---
 

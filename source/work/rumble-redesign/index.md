@@ -160,7 +160,6 @@ Interior pages followed similar conventions. The site used third-party services 
   <img  src="/assets/placeholder-800.svg" data-src="assets/game-interior.png" alt="game interior pages" />
 </figure>
 
-
 ---
 
 ## Takeaways
@@ -170,3 +169,15 @@ Every project teaches me something and this one was no different. Three things t
 1. Plan for evolution if you can anticipate the change.
 1. In the best instances, content strategy, UX, and visual design are inseparable.
 1. Understand your user's overt and latent questions, then make the design answer those.
+
+---
+
+## Credits
+
+<dl>
+  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>UX Design</dt> <dd>Todd Moy</dd>
+  <dt>Visual Design</dt> <dd>Rob Soulé, Minh Tran</dd>
+  <dt>Front-end Development</dt> <dd>Blake Walters, Trevor Davis, Doug Avery</dd>
+  <dt>Project Management</dt> <dd>Kelly Kenny</dd>
+</dl>

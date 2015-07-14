@@ -118,3 +118,14 @@ Three things I learned while doing this project:
 1. Make smart choices on behalf of your users. Correspondingly, enable them to interact _less_.
 1. Ruthlessly question prior decisions. In this case, the strained architecture was the result of many pivots and changes---not intent or malice.
 1. Use whatever means possible to get insights from users. Simple hallway tests are a great first step.
+
+---
+
+## Credits
+
+<dl>
+  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>UX Design</dt> <dd>Todd Moy</dd>
+  <dt>Visual Design</dt> <dd>Tom Osborne</dd>
+  <dt>Project Management</dt> <dd>Amanda Ruehlen</dd>
+</dl>

@@ -102,7 +102,7 @@ hr {
 .main-content {
   margin-bottom: 5em;
 
-  p, h2, h3, h4, table,  ul, ol, figure, .main-content__2-col {
+  p, h2, h3, h4, table,  ul, ol, figure, dl, .main-content__2-col {
       max-width: 800px;
       padding-left: 20px;
       padding-right: 20px;
@@ -135,6 +135,36 @@ hr {
     padding-left: 50px;
   }
 
+  dt {
+    font-weight: bold;
+    border-top: solid #ddd 1px;
+    padding-top: 0.5em;
+    @media (min-width: $bp-md) {
+      clear:left;
+      float:left;
+      width: 50%;
+      border-top: none;
+      border-top: solid #ddd 1px;
+    }
+  }
+
+  dd {
+    margin: 0;
+    padding-bottom: 0.5em;
+    @media (min-width: $bp-md) {
+      clear: right;
+      border-top: solid #ddd 1px;
+    }
+  }
+
+  dt, dd {
+    text-align: center;
+    @media (min-width: $bp-md) {
+      text-align: left;
+      padding: 0.5em 0;
+    }
+  }
+
   li {
     margin-bottom: 1em;
   }
@@ -165,7 +195,7 @@ hr {
   display: inline-block;
   border: solid #000 2px;
   padding: 0.7em 1em;
-  text-transf: uppercase;
+  text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 2px;
   &:hover {

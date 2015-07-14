@@ -136,3 +136,16 @@ Every project teaches me something and this one was no different. Three things t
 1. Watch what people do. Features like _starring_, _foldering_, and _private notes_ were a direct response to seeing how people reviewed applications. No one asked for these features outright, but they appreciated them.
 1. Plan frequent, recurring work shares. This helps gets people engaged, helps course-correct when necessary, and keeps project momentum high.
 1. Get concrete. Sketching live with the client team allowed us to explore ideas quickly, with less room for misinterpretation.
+
+
+---
+
+## Credits
+
+<dl>
+  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>UX Design</dt> <dd>Todd Moy</dd>
+  <dt>Visual Design</dt> <dd>Mark Steinruck</dd>
+  <dt>Front-end Development</dt> <dd>Jeremy Frank</dd>
+  <dt>Project Management</dt> <dd>Kevin Powers</dd>
+</dl>

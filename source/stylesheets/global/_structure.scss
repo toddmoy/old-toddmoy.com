@@ -189,6 +189,13 @@ hr {
     margin-bottom: 1em;
     color: #999;
   }
+
+  a {
+    text-decoration: underline;
+    &:hover {
+      color: $color-accent-3;
+    }
+  }
 }
 
 .button {

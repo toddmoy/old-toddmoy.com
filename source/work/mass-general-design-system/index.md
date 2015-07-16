@@ -53,3 +53,10 @@ The CMS offered limited control over images and it wasn't feasible to ask _all_ 
   <figcaption>Department homepage.</figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-department-homepage.png" alt="department homepage" />
 </figure>
+
+I was also able to use a small Rails app that I built in my free time. Switchman lets you create shareable URLs that redirect users to multiple tests dynamically. <a href="https://medium.com/todd-moy/building-switchman-6a2bdb640c04">Read more</a>.
+
+<figure>
+  <figcaption>Switchman.</figcaption>
+  <img src="/assets/placeholder-800.svg" data-src="assets/edit-mgh.png" alt="Switchman edit screen" />
+</figure>

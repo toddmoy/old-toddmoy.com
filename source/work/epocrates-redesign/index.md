@@ -88,3 +88,14 @@ Rather than presenting Essentials as a separate product, we made it a child of R
   <figcaption>Why Epocrates wireframe and comp</figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/why-epocrates-wireframe-comp.png" alt="Why Epocrates page wireframe and comp" />
 </figure>
+
+---
+
+## Credits
+
+<dl>
+  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>UX Design</dt> <dd>Todd Moy, Jason Toth</dd>
+  <dt>Visual Design</dt> <dd>Mark Steinruck</dd>
+  <dt>Project Management</dt> <dd>Chris Morrison</dd>
+</dl>

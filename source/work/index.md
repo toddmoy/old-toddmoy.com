@@ -22,4 +22,16 @@ layout: work
       <p>Rumble Games Redesign</p>
     </a>
   </li>
+  <li>
+    <a href="/work/opower-redesign/">
+      <h2>Telling a Better Story</h2>
+      <p>OPOWER Redesign</p>
+    </a>
+  </li>
+  <li>
+    <a href="/work/pearl/">
+      <h2>Finding Gems</h2>
+      <p>Viget Pearl</p>
+    </a>
+  </li>
 </ul>

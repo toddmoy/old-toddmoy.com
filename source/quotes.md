@@ -10,5 +10,8 @@ Man cannot discover new oceans unless he has the courage to lose sight of the sh
  There is only one way to avoid criticism: Do nothing, say nothing, and be nothing.
  -Aristotle
 
- To dare is to lose one's footing momentarily. To not dare is to lose oneself. 
+ To dare is to lose one's footing momentarily. To not dare is to lose oneself.
  -Soren Kierkegaard
+
+Some people die at 25 and aren't buried until 75.
+- Benjamin Franklin

@@ -7,7 +7,7 @@ keywords:
 ---
 
 <div class="case-story__hero">
-  <img src="assets/hero.png" alt="cover image" />
+  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
 </div>
 
 Rumble Games is an up-and-coming publisher focused on becoming the leading online developer of premium quality, free-to-play games.

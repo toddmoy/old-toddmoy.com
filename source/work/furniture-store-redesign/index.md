@@ -126,7 +126,7 @@ The content is easily sharable on Pinterest and other social media outlets, incr
 
 We knew that many of their users purchased furniture infrequently. Many years pass between purchases and they rarely get comfortable with the process. So, we wanted to build furniture literacy.
 
-The "Our Furniture" page reveals what makes their furniture so great. It showcases the attention-to-detail and quality that might otherwise be overlooked.This content helps fill the knowledge gap by giving the customer terms and concepts they can use to evaluate furniture.
+The "Our Furniture" page reveals what makes their furniture so great. It showcases the attention-to-detail and quality that might otherwise be overlooked. This content helps fill the knowledge gap by giving the customer terms and concepts they can use to evaluate furniture.
 
 <figure>
   <figcaption>The Our Furniture page is an interactive, brochure-like experience.</figcaption>

@@ -66,9 +66,9 @@ We built the responsive app in Rails and React during a company-sponsored weeken
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
-  <dt>Visual Design</dt> <dd>Billy French, Todd Moy</dd>
+  <dt>Visual Design</dt> <dd><a href="//billyfrench.com">Billy French</a>, Todd Moy</dd>
   <dt>Front-end Development</dt> <dd>Nate Hunzaker</dd>
   <dt>Back-end Development</dt> <dd>Zachary Porter</dd>
 </dl>

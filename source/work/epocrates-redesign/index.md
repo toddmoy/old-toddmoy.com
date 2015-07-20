@@ -94,8 +94,8 @@ Rather than presenting Essentials as a separate product, we made it a child of R
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
-  <dt>UX Design</dt> <dd>Todd Moy, Jason Toth</dd>
-  <dt>Visual Design</dt> <dd>Mark Steinruck</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
+  <dt>UX Design</dt> <dd>Todd Moy, <a href="//jasontothdesign.com">Jason Toth</a></dd>
+  <dt>Visual Design</dt> <dd><a href="//marksteinruck.com/">Mark Steinruck</a></dd>
   <dt>Project Management</dt> <dd>Chris Morrison</dd>
 </dl>

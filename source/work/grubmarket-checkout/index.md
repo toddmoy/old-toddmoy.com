@@ -124,7 +124,7 @@ Three things I learned while doing this project:
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
   <dt>Visual Design</dt> <dd>Tom Osborne</dd>
   <dt>Project Management</dt> <dd>Amanda Ruehlen</dd>

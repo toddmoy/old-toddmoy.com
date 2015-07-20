@@ -82,8 +82,8 @@ I led the UX effort for this project, with close collaboration with Visual Desig
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
-  <dt>Visual Design</dt> <dd>Mindy Wagner</dd>
-  <dt>Project Management</dt> <dd>Kevin Powers</dd>
+  <dt>Visual Design</dt> <dd><a href="//mindywagner.net">Mindy Wagner</a></dd>
+  <dt>Project Management</dt> <dd><a href="//kevinpowers.com">Kevin Powers</a></dd>
 </dl>

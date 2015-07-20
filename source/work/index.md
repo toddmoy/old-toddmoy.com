@@ -23,9 +23,21 @@ layout: work
     </a>
   </li>
   <li>
+    <a href="/work/furniture-store-redesign/">
+      <h2>Improving the Shopper Experience</h2>
+      <p>Furniture Store Redesign</p>
+    </a>
+  </li>
+  <li>
     <a href="/work/opower-redesign/">
       <h2>Telling a Better Story</h2>
       <p>OPOWER Redesign</p>
+    </a>
+  </li>
+  <li>
+    <a href="/work/reveal/">
+      <h2>Next Gen Ad Targeting</h2>
+      <p>Reveal Mobile Insights App Design</p>
     </a>
   </li>
   <li>

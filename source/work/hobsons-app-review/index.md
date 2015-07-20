@@ -143,9 +143,9 @@ Every project teaches me something and this one was no different. Three things t
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
-  <dt>Visual Design</dt> <dd>Mark Steinruck</dd>
+  <dt>Visual Design</dt> <dd><a href="//marksteinruck.com">Mark Steinruck</a></dd>
   <dt>Front-end Development</dt> <dd>Jeremy Frank</dd>
-  <dt>Project Management</dt> <dd>Kevin Powers</dd>
+  <dt>Project Management</dt> <dd><a href="//kevinpowers.com">Kevin Powers</a></dd>
 </dl>

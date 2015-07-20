@@ -15,6 +15,7 @@ Content Analyst builds machine-learning software that automatically categorizes 
 They contacted Viget to help envision and build a tool that would allow end users—patent examiners and intelligence analysts, for example—to train the software without the need for an information retrieval expert.
 
 On this project, I led the product vision, design, and testing.
+
 ---
 
 <h2>Key Responsibilities</h2>
@@ -67,3 +68,14 @@ If we detect the user has not highlighted any content, subtle prompts instruct t
   <figcaption>Tip color is intentionally passive and peaceful.</figcaption>
   <img src="/assets/placeholder-800.svg" data-src="assets/contextual-tips.png" alt="Contextual tips." />
 </figure>
+
+---
+
+## Credits
+
+<dl>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
+  <dt>UX Design</dt> <dd>Todd Moy</dd>
+  <dt>Visual Design</dt> <dd><a href="//mindywagner.net">Mindy Wagner</a></dd>
+  <dt>Project Management</dt> <dd><a href="//beneckerson.com">Ben Eckerson</a></dd>
+</dl>

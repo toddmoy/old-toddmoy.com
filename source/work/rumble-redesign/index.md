@@ -175,9 +175,9 @@ Every project teaches me something and this one was no different. Three things t
 ## Credits
 
 <dl>
-  <dt>Agency</dt> <dd>Viget</dd>
+  <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
-  <dt>Visual Design</dt> <dd>Rob Soulé, Minh Tran</dd>
+  <dt>Visual Design</dt> <dd>Rob Soulé, <a href="//cargocollective.com/mtran">Minh Tran</a></dd>
   <dt>Front-end Development</dt> <dd>Blake Walters, Trevor Davis, Doug Avery</dd>
   <dt>Project Management</dt> <dd>Kelly Kenny</dd>
 </dl>

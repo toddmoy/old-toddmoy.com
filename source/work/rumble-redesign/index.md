@@ -177,7 +177,7 @@ Every project teaches me something and this one was no different. Three things t
 <dl>
   <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
   <dt>UX Design</dt> <dd>Todd Moy</dd>
-  <dt>Visual Design</dt> <dd>Rob Soulé, <a href="//cargocollective.com/mtran">Minh Tran</a></dd>
-  <dt>Front-end Development</dt> <dd>Blake Walters, Trevor Davis, Doug Avery</dd>
+  <dt>Visual Design</dt> <dd><a href="http://robsoule.com/">Rob Soulé</a>, <a href="http://cargocollective.com/mtran">Minh Tran</a></dd>
+  <dt>Front-end Development</dt> <dd><a href="http://markupboy.com/">Blake Walters</a>, <a href="http://trevordavis.net/">Trevor Davis</a>, Doug Avery</dd>
   <dt>Project Management</dt> <dd>Kelly Kenny</dd>
 </dl>

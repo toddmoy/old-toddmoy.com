@@ -48,7 +48,7 @@
     <%= partial "partials/global/segment" %>
   </head>
 
-  <body class="<%= page_classes %>">
+  <body id="main" class="<%= page_classes %> m-scene">
 
     <% if (current_page.url != "/") && (current_page.url != "/work/") %>
     <%= partial "partials/global/header" %>

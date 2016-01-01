@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="assets/hero.png" alt="cover image" />
-</div>
-
 ---
 <figure class="full-bleed">
   <figcaption>The situation analysis mixed traffic analytics with a heuristic review. It identified significant observable problems on the current site. A few sample images are shown.</figcaption>

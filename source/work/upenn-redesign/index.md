@@ -6,10 +6,6 @@ description: Redesigning Upenn.edu
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="assets/hero.png" alt="cover image" />
-</div>
-
 The University of Pennsylvania’s main site, upenn.edu, had evolved over many years with little oversight to the total user experience. As a result, there were a large number of pages that were informally linked together. Navigating through them was slow and often challenging.
 
 For Penn, we conducted interviews with key users of the site: current students, prospects, parents, faculty and staff. We also conducted formative card sort testing on their current IA to pinpoint the trouble spots. This allowed us to focus our attention on the poorly performing areas while retaining those areas that worked well.

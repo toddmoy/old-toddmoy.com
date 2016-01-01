@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 Crocs needed a marketing/ecommerce redesign in 2011, and we were asked to submit ideas for some possible directions they might take. Though they ultimately ended up not going in this direction, the ideas were very well received and it was a fulfilling experience to interact with the Crocs team.
 
 ---

@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 Reviewing internship applicants requires a lot of collaboration and discussion at Viget. Typically our internship coordinator will receive applications and conduct the first phone screen. Those which pass are shortlisted and sent for internal review.
 
 Pearl helps streamline that internal review cycle. It establishes a single profile for each applicant, which acts as the central location to gather materials, links---_and more importantly_---comments.

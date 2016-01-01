@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 The No. 1 retailer of furniture and bedding in the United States--_also the No. 1 selling brand of furniture in the world_--needed help redesigning their site. To do so, they reached out to Viget to better present their furniture, create content that would engage users, and envision what a move to eCommerce would look like.
 
 I led the UX effort on this engagement with close interaction with Visual Designers.

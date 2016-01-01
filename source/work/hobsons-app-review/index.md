@@ -2,13 +2,9 @@
 page_title: Digitizing a Paper Process
 client: Hobsons
 project: App Review
-description: Modernizing the College Application Review Process
+description: <p>Modernizing the College Application Review Process, Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus.</p><p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus.</p>
 keywords:
 ---
-
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
 
 Hobsons provides university admissions departments the tools to accept and manage applications submitted by prospective students.
 

@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/cover.png" alt="cover image" />
-</div>
-
 Though you may have never heard of them, its possible you've used OPOWER. If you've ever received home energy reports from your utility company that compares your usage to your neighbors', those might have been produced by OPOWER.
 
 OPOWER combines big data and and behavioral science to help utility companies reduce energy consumption and improve their relationship with their customers. This helps consumers lower their energy use and costs, and significantly reduces carbon emissions. OPOWER is transforming the way the world approaches household energy conservation.

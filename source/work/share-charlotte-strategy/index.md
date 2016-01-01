@@ -2,14 +2,8 @@
 page_title: Validating an Idea
 client: Share Charlotte
 project: Web Strategy
-description:
+description: SHARE Charlotte, a local registry of volunteer opportunities, had a vision to enable organizations to create wishlists that donors could purchase from. The catch? They weren't sure whether it was a viable idea to invest in.
 keywords:
----
-
----
-
-SHARE Charlotte approached Viget with an idea. This local registry of volunteer opportunities wanted to expand its impact by allowing organizations to create product wishlists that people could purchase from.
-
 ---
 
 <h2>Responsibilities</h2>

@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 Reveal Mobile Insights allows app publishers to monetize their apps through targeted ads. After establishing a proof-of-concept MVP, they sought out Viget to improve the user experience, including designing additional features so that they could go to market.
 
 I led the UX design for this engagement.

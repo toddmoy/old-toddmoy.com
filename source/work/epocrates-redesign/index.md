@@ -6,10 +6,6 @@ description:
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 ## Research
 
 I'm definitely not Epocrates' target user. The people who use their Rx application run the gamut of medical workers. Working collaboratively with them, we defined key user segments, their motivations, and their needs. Beyond physicans, these included:

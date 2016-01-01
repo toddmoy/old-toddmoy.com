@@ -6,10 +6,6 @@ description: How I streamlined checkout for an online farmers market retailer.
 keywords:
 ---
 
-<div class="case-story__hero">
-  <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
-</div>
-
 GrubMarket is to local produce what Etsy is to handmade crafts. This online store enables customers to shop for groceries from local farmers and artisans, which it then delivers for free.
 
 After hearing feedback that their checkout was cumbersome and unintuitive, they asked Viget to streamline this experience.

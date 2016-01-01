@@ -95,10 +95,9 @@ dt, dd {
 // Links
 
 a {
-  text-decoration: underline;
-  color: $font-color-body;
+  color: $color-accent-3;
+  text-decoration: none;
   &:hover {
-    color: $color-accent-3;
     text-decoration: underline;
   }
 }

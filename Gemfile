@@ -12,3 +12,6 @@ gem "middleman-livereload", "~> 3.1.0"
 
 # Bower
 gem 'middleman-bower', '~> 1.0', '>= 1.0.2'
+
+# Autoprefixer
+gem 'middleman-autoprefixer'

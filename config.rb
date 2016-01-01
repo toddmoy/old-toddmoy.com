@@ -57,6 +57,11 @@ configure :development do
   activate :livereload
 end
 
+# Autoprefixer
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+end
+
 # Push to Github
 activate :deploy do |deploy|
   deploy.method = :git

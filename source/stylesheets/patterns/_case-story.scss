@@ -6,15 +6,13 @@
 
 .case-story__title {
   font-family: $font-family-body;
-  font-weight: normal;
+  font-weight: 900;
   font-size: $font-size-body * 2;
   line-height: $line-height-body * 0.8;
   margin: 0.5em 20px 20px 20px;
-
   @media (min-width: $bp-md) {
     font-size: $font-size-body * 2.5;
   }
-
   @media (min-width: $bp-lg) {
     font-size: $font-size-body * 3;
   }

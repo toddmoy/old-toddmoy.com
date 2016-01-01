@@ -1,0 +1,25 @@
+.footer {
+  font-family: $font-family-footer;
+  font-size: $font-size-footer;
+  text-align: center;
+  background-color: $color-accent-2;
+  color: white;
+  padding: 4em 0 4em 0;
+  .button {
+    text-transform: uppercase;
+    margin: 2em auto 0 auto;
+    border-color: #fff;
+    color: #fff;
+    &:hover {
+      background-color: #fff;
+      color: $color-accent-2;
+    }
+  }
+}
+
+.footer__emoji__text {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 0 10px;
+}

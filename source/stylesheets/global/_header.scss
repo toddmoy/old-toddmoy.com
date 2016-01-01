@@ -1,0 +1,20 @@
+.global-header {
+  font-family: $font-family-header;
+  text-align: center;
+  margin-top: 3em;
+  .avatar {
+    border: solid #efefef 1px;
+    &:hover {
+      border: solid $color-accent-2 1px;
+    }
+  }
+}
+
+.global-header__identity {
+  display: block;
+  padding: 2em;
+  font-size: $font-size-header * 0.7;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}

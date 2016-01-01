@@ -4,7 +4,7 @@ $bp-lg: 56.25em;
 
 // Font Styles
 // - Body
-$font-family-body: Georgia, Times, serif;
+$font-family-body: 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-body: 1.3em;
 $line-height-body: 1.5;
 $font-color-body: #333;
@@ -14,13 +14,13 @@ $font-family-header: 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-header: 1em;
 
 // - Headline
-$font-family-headline: Georgia, Times, serif;
+$font-family-headline: 'Helvetica Neue', Helvetica, sans-serif;
 
 // - Footer
 $font-family-footer: 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-footer: 0.6em;
 
-// Other Colors
+// Colors
 $color-accent-1: #f1c40f; // gold-ochre
 $color-accent-2: #61636F; // grey-purple
 $color-accent-3: #E84C46; // brick-red

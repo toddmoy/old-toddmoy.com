@@ -1,13 +1,13 @@
 <% wrap_layout :layout do %>
 
-<article class="case-story__wrapper scene_element scene_element--fadein">
+<article class="case-story">
   <header class="case-story__header">
     <h1 class="case-story__title"><%= current_page.data.page_title %></h1>
-    <p class="case-story__project"><%= current_page.data.client + " " + current_page.data.project %></p>
+    <div class="case-story__hero">
+      <img src="/assets/placeholder-hero.svg" data-src="assets/hero.png" alt="cover image" />
+    </div>
   </header>
-  <div class="main-content">
-    <%= yield %>
-  </div>
+  <%= yield %>
 </article>
 
 <% end %>

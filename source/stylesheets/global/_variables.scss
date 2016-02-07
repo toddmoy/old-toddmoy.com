@@ -3,24 +3,33 @@ $bp-md: 43.75em;
 $bp-lg: 56.25em;
 
 // Font Styles
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
 // - Body
-$font-family-body: 'Helvetica Neue', Helvetica, sans-serif;
+$font-family-body: 'Merriweather', 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-body: 1.3em;
-$line-height-body: 1.5;
+$line-height-body: 1.7;
 $font-color-body: #333;
 
-// - Header
-$font-family-header: 'Helvetica Neue', Helvetica, sans-serif;
+// - Headings
+$font-family-header: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-header: 1em;
 
-// - Headline
-$font-family-headline: 'Helvetica Neue', Helvetica, sans-serif;
+// - Nav
+$font-family-nav: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+$font-color-nav: #333;
+$font-size-nav: 1em;
 
 // - Footer
-$font-family-footer: 'Helvetica Neue', Helvetica, sans-serif;
-$font-size-footer: 0.6em;
+$font-family-footer: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+$font-size-footer: 0.7em;
 
 // Colors
 $color-accent-1: #f1c40f; // gold-ochre
-$color-accent-2: #61636F; // grey-purple
-$color-accent-3: #E84C46; // brick-red
+$color-accent-2: #242633; // grey-purple
+$color-accent-3: #0000ff; // blue
+$color-accent-4: rgba(198,172,154, 1.0);
+$color-accent-5: rgba(47, 70, 100, 1.0);
+$color-accent-6: rgba(217, 220, 228, 1.0);

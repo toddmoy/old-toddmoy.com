@@ -5,6 +5,6 @@
 //= require "twentytwenty/js/jquery.event.move"
 
 $(document).ready(function(){
-  $("img").unveil(200);
-  $("#main").smoothState();
+  $('img').unveil(200);
+  $('#main').smoothState();
 });

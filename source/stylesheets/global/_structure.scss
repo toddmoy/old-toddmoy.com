@@ -11,8 +11,8 @@ body {
   background-color: #fff;
 }
 
-img {
-  width: 100%;
+img, embed, object, video {
+  max-width: 100%;
 }
 
 .avatar {
@@ -30,36 +30,4 @@ img {
 .avatar--big {
   width: 200px;
   height: 200px;
-}
-
-.main-content__2-col {
-  margin-bottom: 3em;
-
-  @media (min-width: $bp-md) {
-    column-count: 2;
-  }
-}
-
-.main-content {
-  margin-bottom: 5em;
-
-  p, h2, h3, h4, table,  ul, ol, figure, dl, .main-content__2-col {
-    max-width: 800px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  figure {
-    display: block;
-    position: relative;
-    margin: 3em auto;
-  }
-
-  figure.full-bleed {
-    width: 90%;
-    max-width: 2000px;
-    padding: 0;
-  }
 }

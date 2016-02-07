@@ -13,17 +13,15 @@
     <%= partial "partials/global/segment" %>
   </head>
 
-  <body id="main" class="<%= page_classes %> m-scene">
+  <body id="main" class="<%= page_classes %>">
 
-    <% if (current_page.url != "/") && (current_page.url != "/work/") %>
+    <% if (current_page.url != "/") %>
     <%= partial "partials/global/header" %>
     <% end %>
 
     <%= yield %>
 
-    <% if (current_page.url != "/") && (current_page.url != "/work/") %>
     <%= partial "partials/global/footer" %>
-    <% end %>
 
   </body>
 </html>

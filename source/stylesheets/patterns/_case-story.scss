@@ -1,15 +1,65 @@
-.case-story__wrapper {}
+.case-story {
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  table,
+  ul,
+  ol,
+  figure,
+  dl,
+  .case-story__matrix--2col,
+  .case-story__matrix--3col {
+    max-width: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul,
+  ol {
+    padding-left: 2.5em;
+
+    @media (min-width: $bp-lg) {
+      padding-left: 20px;
+    }
+  }
+
+  figure {
+    display: block;
+    position: relative;
+    margin: 3em auto;
+  }
+
+  figure.full-bleed {
+    width: 90%;
+    max-width: 2000px;
+    padding: 0;
+  }
+}
+
+// Header
 
 .case-story__header {
+  background-color: $color-accent-2;
+  color: #fff;
+  padding: 3em 0 0 0;
   text-align: center;
+  @media (min-width: $bp-md) {
+    padding: 5em 0 0 0;
+  }
 }
 
 .case-story__title {
-  font-family: $font-family-body;
+  font-family: $font-family-header;
   font-weight: 900;
   font-size: $font-size-body * 2;
   line-height: $line-height-body * 0.8;
-  margin: 0.5em 20px 20px 20px;
+  margin-top: 0;
+  text-transform: uppercase;
   @media (min-width: $bp-md) {
     font-size: $font-size-body * 2.5;
   }
@@ -23,26 +73,84 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   line-height: $line-height-body * 1.3;
-  margin: 0 20px 0 20px;
 }
 
 .case-story__hero {
-  background-color: #61636F;
-  margin: 3em 0;
+  margin: 3em 0 0 0;
   padding-top: 1em;
-  text-align: center;
-  @media (min-width: $bp-md) {
-    padding-top: 2em;
-  }
-  @media (min-width: $bp-lg) {
-    padding-top: 3em;
-  }
   img {
     width: 90%;
     margin: 0 auto;
     display: block;
     @media (min-width: $bp-lg) {
       max-width: 960px;
+    }
+  }
+}
+
+// Chapters
+
+.case-story__chapter {
+  padding: 2em 0;
+  &:nth-of-type(even) {
+    background-color: #fafafa;
+  }
+  @media (min-width: $bp-md) {
+    padding: 3em 0;
+  }
+  @media (min-width: $bp-lg) {
+    padding: 5em 0;
+  }
+}
+
+.case-story__chapter__label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: $font-size-body * 0.5;
+  font-family: $font-family-header;
+  color: #aaa;
+}
+
+// Matrices
+
+.case-story__matrix {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item {
+    padding-left: 30px;
+  }
+
+  .item:before {
+    position: relative;
+    content: "::";
+    top: 47px;
+    left: -30px;
+  }
+
+  .item * {
+    font-size: $font-size-body * .6 !important;
+    padding-left: 0;
+  }
+  .item h3 {
+    text-transform: uppercase;
+  }
+}
+
+.case-story__matrix--2col {
+  .item {
+    flex: 1 1 100%;
+    @media (min-width: $bp-md) {
+      flex: 0 0 50%;
+    }
+  }
+}
+
+.case-story__matrix--3col {
+  .item {
+    flex: 1 1 100%;
+    @media (min-width: $bp-md) {
+      flex: 0 0 33.3333333%;
     }
   }
 }

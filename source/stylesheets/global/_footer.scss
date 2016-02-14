@@ -4,21 +4,3 @@
   text-align: center;
   padding: 1em 0 1em 0;
 }
-
-.contact-links {
-  padding-left: 0;
-}
-
-.contact-links li {
-  @media (min-width: $bp-md) {
-    display: inline-block;
-    &:after {
-      content: "#";
-      padding: 0 1em;
-    }
-    &:last-of-type:after {
-      content: "";
-      padding: 0;
-    }
-  }
-}

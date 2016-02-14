@@ -2,8 +2,15 @@
 $bp-md: 43.75em;
 $bp-lg: 56.25em;
 
-// Font Styles
+// Colors
+$color-accent-1: cornflowerblue; 
+$color-accent-2: #242633; // grey-purple
+$color-accent-3: #0000ff; // blue
+$color-accent-4: rgba(198,172,154, 1.0);
+$color-accent-5: rgba(47, 70, 100, 1.0);
+$color-accent-6: rgba(217, 220, 228, 1.0);
 
+// Font Styles
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
 
@@ -27,10 +34,8 @@ $font-size-nav: 1em;
 $font-family-footer: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
 $font-size-footer: 0.7em;
 
-// Colors
-$color-accent-1: #f1c40f; // gold-ochre
-$color-accent-2: #242633; // grey-purple
-$color-accent-3: #0000ff; // blue
-$color-accent-4: rgba(198,172,154, 1.0);
-$color-accent-5: rgba(47, 70, 100, 1.0);
-$color-accent-6: rgba(217, 220, 228, 1.0);
+// - Buttons
+$font-family-button: 'Roboto Condensed', 'Helvetica Neue', Helvetica, sans-serif;
+$font-size-button: 0.7em;
+$font-color-button: #333;
+$border-button: solid $color-accent-2 2px;

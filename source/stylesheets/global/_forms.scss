@@ -1,11 +1,16 @@
 .button {
   display: inline-block;
-  border: solid #000 2px;
+  border: $border-button;
+  font-size: $font-size-button;
+  font-family: $font-family-button;
   padding: 0.7em 1em;
   text-transform: uppercase;
   font-weight: normal;
   letter-spacing: 2px;
+  color: $font-color-button;
   &:hover {
     text-decoration: none;
+    color: white;
+    background-color: #334;
   }
 }

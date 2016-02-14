@@ -25,3 +25,6 @@
 # Ignore Sublime Text project files
 *.sublime-project
 *.sublime-workspace
+
+# Ignore art
+/art

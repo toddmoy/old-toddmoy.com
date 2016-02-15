@@ -14,21 +14,3 @@ body {
 img, embed, object, video {
   max-width: 100%;
 }
-
-.x404 {
-  background:url(/assets/404.gif) no-repeat fixed center;
-  background-size: cover;
-  background-position: top center;
-}
-
-.banner-404 {
-  display: flex;
-  background-color: white;
-  padding: 1em;
-  justify-content: space-between;
-  align-items: center;
-  * {
-    padding: 0;
-    margin: 0;
-  }
-}

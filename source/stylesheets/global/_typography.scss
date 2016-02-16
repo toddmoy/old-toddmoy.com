@@ -19,7 +19,8 @@ body {
 
 // Headings
 
-h1 {
+h1,
+.h1 {
   font-family: $font-family-header;
   font-size: $font-size-body * 2;
   line-height: $line-height-body;
@@ -33,7 +34,8 @@ h1 {
   }
 }
 
-h2 {
+h2,
+.h2 {
   font-size: $font-size-body * 1.2;
   font-family: $font-family-header;
   font-weight: bold;
@@ -42,14 +44,16 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+h3,
+.h3 {
   font-family: $font-family-header;
   font-weight: bold;
   font-size: $font-size-body;
   line-height: $line-height-body;
 }
 
-h4 {
+h4,
+.h4 {
   font-size: $font-size-body * 1.25;
   line-height: $line-height-body * 0.9;
   @media (min-width: $bp-md) {

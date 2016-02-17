@@ -94,6 +94,7 @@
 
 .case-story__chapter {
   padding: 2em 0;
+  border-bottom: solid #f0f0f0 1px;
   @media (min-width: $bp-md) {
     padding: 3em 0;
   }

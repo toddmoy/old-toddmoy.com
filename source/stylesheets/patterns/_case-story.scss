@@ -118,6 +118,13 @@
   }
 }
 
+.case-story__chapter--mediumGrey {
+  background-color: #ccc;
+  * {
+    color: #000 !important;
+  }
+}
+
 .case-story__chapter--darkGrey {
   background-color: #334;
   * {

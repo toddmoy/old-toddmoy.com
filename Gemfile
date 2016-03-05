@@ -15,3 +15,6 @@ gem 'middleman-bower', '~> 1.0', '>= 1.0.2'
 
 # Autoprefixer
 gem 'middleman-autoprefixer'
+
+# S3 Deploy
+gem 'middleman-s3_sync'

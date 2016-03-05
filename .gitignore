@@ -28,3 +28,6 @@
 
 # Ignore art
 /art
+
+# Ignore S3 credentials
+.s3_sync

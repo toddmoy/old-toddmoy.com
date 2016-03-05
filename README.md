@@ -1,14 +1,7 @@
-## Toddmoy.com 
-
-
-## Uses
-
-* [Bourbon](http://bourbon.io)
-* [Neat](http://neat.bourbon.io)
-* [Middleman](http://middlemanapp.com)
-  * [Middleman Deploy](https://github.com/middleman-contrib/middleman-deploy)
+# Toddmoy.com
 
 ## Instructions
 
 * Build with `middleman build`
 * Deploy to gh-pages with `middleman deploy`
+* Deploy to S3 with `middleman s3_sync`

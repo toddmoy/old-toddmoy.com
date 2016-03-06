@@ -1,166 +1,140 @@
 ---
-page_title: App Review
+page_title: Hobsons App Review
 client: Hobsons
 project: App Review
-description: Hobsons, the leading provider of university admissions software, discovered an opportunity to improve the annual application review experience for faculty members.
-keywords:
+summary: Streamlining application review in higher education.
 ---
 
 <div class="case-story__chapter">
-
-  <p><%= current_page.data.description %></p>
-
-  <p>I led the design of this new product, AppReview. Among our team of developers and visual designers, I was responsible for:</p>
-
+  <p>Hobsons builds software that helps universities accept, process, and manage applications from prospective students. Their software was designed principally for admissions officers.</p>
+  <p>Over time, however, they noticed that admissions officers were sharing passwords with faculty so that applications could be reviewed online. In other cases, Hobsons observed schools building custom application review software.</p>
+  <p>Realizing a new product opportunity, they asked Viget to help envision and build a tool that would streamline college application reviews.</p>
+  <p>I led the design of this new product, App Review. Among our team of developers and visual designers, I was responsible for:</p>
   <div class=" case-story__matrix case-story__matrix--2col">
     <div class="item">
       <h3>User Research</h3>
-      <p>Observe faculty and admissions officers review applications using their established processes.</p>
+      <p>Observe the myriad ways faculty and admissions officers review applications at different universities.</p>
     </div>
-
     <div class="item">
       <h3>Product Definition</h3>
       <p>Develop a conceptual model of the application and prioritize features based on technical complexity and user value.</p>
     </div>
-
     <div class="item">
-      <h3>Design &amp; Architecture</h3>
+      <h3>UI &amp; IX Design</h3>
       <p>Wireframe and annotate all meaningful screens, states, architecture, and user flows.</p>
     </div>
-
     <div class="item">
       <h3>Usability Testing</h3>
-      <p>Conduct remote, moderated task-based usability testing using a prototype of App Review. Revise the design based on observations.</p>
+      <p>Conduct moderated task-based usability testing using a prototype of App Review.</p>
     </div>
   </div>
-
 </div>
 
-
-<div class="case-story__chapter">
-  <h2>The Challenge</h2>
-
-  <p>Reviewing admission applications requires two distinct groups to collaborate in a .  involving many different </p>
-
-  <figure>
-    <img src="/assets/placeholder-800.svg" data-src="assets/collab-sketch.png" alt="Collaboration Sketch" />
-  </figure>
-
-  <p> Admissions Officers (AOs) would receive and assign a group of applications to a pool of reviewers. Later, <acronym title="Admissions Officers">AOs</acronym> would need to hunt down reviewers, nag them, reassign applicants, and so on. Once they got the information back, they had the arduous task of manually entering the evaluations.</p>
-</div>
-
-<div class="case-story__chapter">
-  <h2>Research</h2>
-
-  <p>Starting out, I needed to understand how universities managed their review process. So, I interviewed admissions officers and faculty to understand their customs. During these sessions, I observed them conduct mock reviews. This helped me understand the strategies they used for dealing with a large, complex task.</p>
-
+<div class="case-story__chapter case-story__chapter--lightGrey">
+  <h2>The Situation</h2>
+  <p>Reviewing admission applications requires two distinct groups to collaborate:</p>
+  <ul>
+    <li><strong>Admissions Officers</strong> (AOs) receive and assign a group of applications to a pool of faculty reviewers. They keep tabs on progress and help usher the review along.</li>
+    <li><strong>Faculty Reviewers</strong> review the applications whenever they can find time. Often, they need to collaborate with other reviewers to do so.</li>
+  </ul>
+  <p><strong>The issue?</strong> Each school had a unique review process. To ensure AppReview supported them, I worked with admissions officers to investigate and define the common denominator of activities and roles.</p>
+  <p>Thinking about the common architecture enabled us accommodate a broad variety of use cases &mdash; and not over-engineer for edge cases.</p>
+  <p>I used a sequence diagram to convey this collaboration process.</p>
   <figure class="full-bleed">
-    <figcaption>I used a mental model to organize and present my findings. Later, we used this to plan features to support their needs.</figcaption>
+    <img src="/assets/placeholder-2000.svg" data-src="assets/sequence-diagram.png" alt="Sequence diagram" />
+  </figure>
+</div>
+
+
+
+<div class="case-story__chapter">
+  <h2>Reviewer Needs</h2>
+  <p>I also needed to understand how faculty members reviewed applications. In one-on-one interviews, I talked with them about their processes. Going one step further, I had them review applications while I observed.</p>
+  <p>I captured this information in a <a href="http://rosenfeldmedia.com/books/mental-models/">mental model</a>, which we later used as a foundation for brainstorming functionality.</p>
+  <figure class="full-bleed">
     <img src="/assets/placeholder-2000.svg" data-src="assets/mental-model.png" alt="Mental Model Diagram" />
   </figure>
-
-  <p>Each school had a unique review process. To ensure AppReview supported them, I worked with admissions officers to distill the common activities and roles. Later, this helped us prioritize features that were universally needed---and not waste resources building for edge cases.</p>
-
-  <figure>
-    <figcaption>I used a sequence diagram to show how people collaborated on a review.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/sequence-diagram.png" alt="Sequence diagram" />
-  </figure>
-
-  <p>This research culminated in a project vision document, which recapped the research, described how AppReview could work, and offered prioritization suggestions for features.</p>
-
-  <figure>
-    <figcaption>A concept model helped describe the core components the application needed to support.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/concept-model.png" alt="Concept Model" />
-  </figure>
+  <h3>Key Insight</h3>
+  <p>This group of users is time-pressed and, as a result, they've developed a number of interesting strategies for reviewing a large number of applications, including:</p>
+  <ul>
+    <li><strong>Piling and Subdividing</strong> - creating subgroups for easier comparison, or to review during small windows of free time.</li>
+    <li><strong>Comparing and Contrasting</strong> - comparing similar candidates on a variety of attributes.</li>
+    <li><strong>Annotating and Dog-earing</strong> - adding Post-Its and marginalia to distinguish candidates and remember vital information.</li>
+  </ul>
+  <p>These observed &mdash; yet unstated &mdash; requirements were important for a productive user experience. They led to features like tagging, starring, and private notes.</p>
 </div>
 
-<div class="case-story__chapter">
-  <h2>Design</h2>
+<div class="case-story__chapter case-story__chapter--lightGrey">
+  <h2>Forming a concept</h2>
+  <p>Having conducted enough research to start planning, I brought the team together to sketch out ideas.</p>
+  <p>This exercise helped us develop a shared understanding of the product and its concepts. Though I was remote, I used an <a href="http://www.ipevo.com/prods/Point-2-View-USB-Camera">IPVEO cam</a> to sketch live with the client.</p>
 
-  <p>To kickoff the design phase, I brought the client team together to sketch out ideas. This exercise helped us develop a shared understanding of the product and its concepts. This worked well and I used the same approach throughout the project.</p>
-
-  <figure>
-    <figcaption>An early sketch of the inbox and the application views.</figcaption>
+  <figure class="bordered">
     <img src="/assets/placeholder-800.svg" data-src="assets/sketch.png" alt="sketch" />
-  </figure>
-
-  <figure>
-    <figcaption>Because I was remote, I used a dedicated camera so that I could sketch live with the client.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/remote-sketching.png" alt="todd with a webcam that's pointing at his sketch" />
   </figure>
 
   <p>With a common vision in place, I turned my attention on identifying the flows and views that the application would need. This established scope and allowed us to accurately estimate effort.</p>
 
-  <figure>
-    <figcaption>Our functional sprints mapped to sections of the application.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/sitemap.png" alt="sitemap" />
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/sitemap-wide.png" alt="sitemap" />
   </figure>
+</div>
 
+<div class="case-story__chapter case-story__chapter--darkGrey">
+  <h2>Designing Screens and Flows</h2>
   <p>Section by section, I wireframed the necessary views. Each week I held a work share, where I presented what had been completed. Critically, this was attended by their product, development, and QA teams. This kept everyone in the loop and helped us course-correct when needed. Outside of these, we had ad-hoc video conferences and Basecamp discussions.</p>
+  <p>Because this was a handoff project, full annotations were necessary. Some notable pages follow:</p>
 
-  <p>Some notable screens from this process:</p>
-
-  <figure>
-    <figcaption>The inbox was the hub of the user experience.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-inbox.png" alt="Inbox wireframe" />
+  <h3>Inbox</h3>
+  <p>The inbox is the hub of the experience. We relied on the mailbox metaphor because it was familiar to most users.</p>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/wireframe-inbox.png" alt="Inbox wireframe" />
   </figure>
 
-  <figure>
-    <figcaption>The application detail was where reviewers could access an applicant's information and make their evaluation.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-application.png" alt="Application detail wireframe" />
+  <h3>Application Detail</h3>
+  <p>The application detail contains two primary parts. First, it displays information about the applicant in the format chosen by the admissions officer. Second, it provides a questionnaire for faculty members to record their interim notes and final decision about the applicant.</p>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/wireframe-application.png" alt="Application detail wireframe" />
   </figure>
 
-  <figure>
-    <figcaption>Admins assign faculty reviewers to applicants. <br />In reviews that occur sequentially, they can define the order of reviews.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-assign-reviewers.png" alt="Assign reviewers wireframe" />
+  <h3>Assigning Reviewers</h3>
+  <p>An admissions officer could assign one or many people to review applications. This interface supported picking reviewers, assigning roles, and defining the order in which they review applications.</p>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/wireframe-assign-reviewers.png" alt="Assign reviewers wireframe" />
   </figure>
 
-  <figure>
-    <figcaption>Admins can customize how the applicant's information appears, along with the questions they ask of reviewers.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-customize-review.png" alt="Customize the review wireframe" />
+  <h3>Review Customization</h3>
+  <p>Each program cares about different application details. Some emphasize standardized test scores while others couldn’t care less.</p>
+  <p>The interface allows application fields to be added and reordered. This is done in a mock UI to help admissions officers visualize how it will look to reviewers.</p>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/wireframe-customize-review.png" alt="Customize the review wireframe" />
   </figure>
 
-  <figure>
-    <figcaption>Microinteractions&mdash;like the states for editing questions&mdash;were described in detail.</figcaption>
-    <img src="/assets/placeholder-800.svg" data-src="assets/wireframe-microinteractions.png" alt="Wireframe of question editing states" />
+  <p>Similarly, the questions asked of reviewers vary from among schools and programs. To accommodate this, we devised a set of common question types based on what was commonly asked. These can be added and ordered as to suit.</p>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/wireframe-microinteractions.png" alt="Wireframe of question editing states" />
   </figure>
-
-  <p>It's worth noting that I don't always annotate wireframes in this way. On more agile projects, frequent communication can substitute for this level of detail. But because this was a handoff project, I felt it necessary to capture and relay the information that wasn't immediately evident in the UI.</p>
 </div>
 
 <div class="case-story__chapter">
-  <h2>Testing</h2>
-
-  <p>About midway through the design phase, we had enough screens to test the core functionality of the app. I set up an online clickable prototype and ran moderated, task-based usability tests using WebEx. The client team participated as silent observers. After each test, we held a brief recap where we discussed our observations.</p>
-
+  <h2>Testing &amp; Delivery</h2>
+  <p>About midway through the design phase, we had enough screens to test the core functionality of the app.</p>
+  <p>I set up an online clickable prototype and ran moderated, task-based usability tests using GoToMeeting. The client team participated as silent observers.</p>
+  <p>After each test, we held a brief recap where we discussed our observations and recorded them in Trello. Later, we clustered these, assigned severity, and prioritized improvements.</p>
   <figure>
-    <figcaption>Trello allowed each of us to record observations into a shared space.<br />Together, we'd review them, assign severity, and define fixes.</figcaption>
     <img src="/assets/placeholder-800.svg" data-src="assets/trello.png" alt="Screenshot of a Trello card" />
   </figure>
-
-  <p>Based on the testing, we refined the interface and got to a solid first release. Our visual designer comped the screens and created a style guide; our Front-end Developer built the screens out. Hobsons took these assets and engineered the application.</p>
-</div>
-
-<div class="case-story__chapter">
-  <h2>Takeaways</h2>
-
-  <p>Every project teaches me something and this one was no different. Three things this project taught me were:</p>
-
-  <ol>
-    <li>Watch what people do. Features like <em>starring</em>, <em>foldering</em>, and <em>private notes</em> were a direct response to seeing how people reviewed applications. No one asked for these features outright, but they appreciated them.</li>
-    <li>Plan frequent, recurring work shares. This helps gets people engaged, helps course-correct when necessary, and keeps project momentum high.</li>
-    <li>Get concrete. Sketching live with the client team allowed us to explore ideas quickly, with less room for misinterpretation.</li>
-  </ol>
+  <p>Based on the testing, we tweaked the interface, comped the screens, and built out the front-end. Hobsons took these assets and engineered the application.</p>
 </div>
 
 <div class="case-story__chapter">
   <h2>Credits</h2>
 
   <dl>
-    <dt>Agency</dt> <dd><a href="//viget.com">Viget</a></dd>
+    <dt>Agency</dt> <dd>Viget</dd>
     <dt>UX Design</dt> <dd>Todd Moy</dd>
-    <dt>Visual Design</dt> <dd><a href="//marksteinruck.com">Mark Steinruck</a></dd>
+    <dt>Visual Design</dt> <dd>Mark Steinruck</dd>
     <dt>Front-end Development</dt> <dd>Jeremy Frank</dd>
-    <dt>Project Management</dt> <dd><a href="//kevinpowers.com">Kevin Powers</a></dd>
+    <dt>Project Management</dt> <dd>Kevin Powers</dd>
   </dl>
 </div>

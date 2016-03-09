@@ -59,11 +59,11 @@
 
 .case-story__title {
   font-family: $font-family-header;
-  font-weight: 900;
+  font-weight: 100;
   font-size: $font-size-body * 2;
   line-height: $line-height-body * 0.58;
   margin-top: 0;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   @media (min-width: $bp-md) {
     font-size: $font-size-body * 2.5;
   }

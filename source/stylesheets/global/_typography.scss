@@ -38,18 +38,20 @@ h2,
 .h2 {
   font-size: $font-size-body * 1.2;
   font-family: $font-family-header;
-  font-weight: bold;
+  font-weight: 300;
   line-height: $line-height-body * 0.7;
   margin-bottom: 1em;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 h3,
 .h3 {
-  font-family: $font-family-header;
+  font-family: $font-family-header-2;
   font-weight: bold;
-  font-size: $font-size-body;
+  font-size: $font-size-body * 0.6;
   line-height: $line-height-body;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h4,
@@ -76,7 +78,7 @@ dl {
 }
 
 dt {
-  font-family: $font-family-header;
+  font-family: $font-family-header-2;
   text-transform: uppercase;
   font-weight: bold;
 }

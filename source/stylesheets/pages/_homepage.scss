@@ -29,27 +29,23 @@
     color: white;
   }
   h2 {
+    font-family: $font-family-header-2;
     font-size: $font-size-body * 0.7;
+    font-weight: bold;
+    text-transform: uppercase;
     padding: 1.5em;
     color: white;
     margin-bottom: 0;
+    margin-top: 0;
     background-color: $color-accent-1;
+    letter-spacing: 1px;
   }
 }
 
 .work-item {
   text-align: center;
+  border-bottom: dotted rgba(255, 255, 255, 0.1) 1px;
 
-  &:nth-child(n+3) {
-    &:before {
-      content: "";
-      display: block;
-      width: 10px;
-      height: 4px;
-      margin: -2px auto 0 auto;
-      background-color: $color-accent-1;
-    }
-  }
   a {
     padding: 1em 2em;
     @media (min-width: $bp-md) {
@@ -59,6 +55,21 @@
     &:hover {
       text-decoration: none;
       background-color: lighten($color-accent-2, 5%);
+      p {
+        opacity: 1;
+      }
     }
+  }
+  h3 {
+    font-family: $font-family-header;
+    font-size: $font-size-body;
+    text-transform: none;
+    font-weight: 300;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+    opacity: 0.4;
   }
 }

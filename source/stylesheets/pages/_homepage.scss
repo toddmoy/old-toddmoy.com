@@ -30,15 +30,15 @@
   }
   h2 {
     font-family: $font-family-header-2;
-    font-size: $font-size-body * 0.7;
+    font-size: $font-size-body * 0.6;
     font-weight: bold;
+    color: $font-color-body;
     text-transform: uppercase;
     padding: 1.5em;
-    color: white;
     margin-bottom: 0;
     margin-top: 0;
-    background-color: $color-accent-1;
-    letter-spacing: 1px;
+    background-color: #f0f0f0;
+    letter-spacing: 2px;
   }
 }
 

@@ -1,15 +1,249 @@
-@import "global/variables";
-@import "global/mixins";
-@import "global/normalize";
-@import "global/typography";
-@import "global/structure";
-@import "global/page-transitions";
-@import "global/forms";
-@import "global/footer";
-@import "global/header";
-@import "patterns/case-story";
-@import "patterns/devices";
-@import "pages/homepage";
-// @import "twentytwenty/scss/twentytwenty";
-// @import "bourbon/app/assets/stylesheets/bourbon";
-// @import "neat/app/assets/stylesheets/neat";
+@import 'reset';
+@import 'neat';
+@import 'variables';
+@import 'animations';
+
+
+
+// Typography
+
+h1, .h1 {
+  font-family: $font-primary;
+  font-size: 4.236em;
+  line-height: $unit * 10;
+}
+
+h2, .h2 {
+  font-family: $font-primary;
+  font-size: 2.618em;
+  line-height: $unit * 6;
+}
+
+h3, .h3 {
+  font-family: $font-primary;
+  font-size: 1.618em;
+  line-height: $unit * 5;
+}
+
+h4, .h4 {
+  font-family: $font-secondary-1;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: $unit * 3;
+  font-size: $unit * 1.5;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h5, .h5 {
+  font-family: $font-primary;
+  font-weight: bold;
+}
+
+h6, .h6 {
+  font-family: $font-primary;
+  font-style: italic;
+}
+
+.page__title {
+  @extend .h4;
+  color: $grey-7;
+}
+
+.page__summary {
+  font-family: Georgia, serif;
+  font-size: $unit * 4;
+  line-height: $unit * 6;
+
+  @media screen and (min-width: $bp-2) {
+    font-size: $unit * 6;
+    line-height: $unit * 8;
+  }
+
+  @media screen and (min-width: $bp-4) {
+    font-size: $unit * 8;
+    line-height: $unit * 10;
+  }
+}
+
+// Elements
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p,
+ul,
+ol,
+img,
+figcaption,
+table {
+  margin-bottom: $unit * 3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font:  $font-primary;
+  color: #fff;
+  background-color: $grey-9;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+// Classes
+
+.container {
+  @include outer-container;
+  padding-left:  $unit * 4;
+  padding-right: $unit * 4;
+}
+
+.cover {
+  height: calc(100% - #{$nav-height});
+  background-color: $grey-9;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter {
+  padding-top:    $unit * 5;
+  padding-bottom: $unit * 5;
+  background-color: #fff;
+  color: $grey-7;
+
+  @media screen and (min-width: $bp-2) {
+    padding-top:    $unit * 10;
+    padding-bottom: $unit * 10;
+  }
+
+  @media screen and (min-width: $bp-3) {
+    padding-top:    $unit * 20;
+    padding-bottom: $unit * 20;
+  }
+}
+
+.chapter--grey-03 {
+  background-color: $grey-03;
+}
+
+.chapter--grey-9 {
+  background-color: $grey-9;
+}
+
+.chapter--img-flush-bottom {
+  padding-bottom: 0;
+  img {
+    margin-bottom: 0;
+  }
+}
+
+.chapter__title {
+  @extend h4;
+  @media screen and (min-width: $bp-2) {
+    @include span-columns(4);
+  }
+}
+
+.chapter__body {
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $bp-2) {
+    @include span-columns(8);
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $grey-9;
+
+  // .grid__title {
+  //   @extend .h4;
+  //   color: #fff;
+  //   flex-basis: 100%;
+  //   margin-left: $unit * 4;
+  //   text-align: left;
+  //
+  //   @media screen and (min-width: $bp-2) {
+  //     margin-left: $unit * 6;
+  //   }
+  //   @media screen and (min-width: $bp-3) {
+  //     margin-left: 0;
+  //     text-align: center;
+  //   }
+  //}
+
+
+  .grid__item {
+    color: $grey-03;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: $unit * 4;
+    background-color: inherit;
+    transition: all 0.3s ease-out;
+
+    @media screen and (min-width: $bp-2) {
+      padding: $unit * 6;
+    }
+
+    @media screen and (min-width: $bp-3) {
+      width: 50%;
+      padding: $unit * 8;
+    }
+
+    &:hover {
+      background-color: $grey-7;
+      // box-shadow: 0px 2px 300px 0px rgba(0,0,0,0.10);
+    }
+  }
+}
+
+
+// Ids
+
+#main {
+  height: 100%;
+}
+
+#nav-primary {
+  transition: all 0.25s cubic-bezier(0.4, 0, 1, 1);
+  background-color: $grey-9;
+
+  #identity {
+    display: block;
+    font-weight: bold;
+    color: $grey-7;
+    font-size: $unit * 2.5;
+    line-height: $unit * 4;
+    text-decoration: none;
+    padding: $unit * 4 0;
+    font-family: $font-secondary-1;
+  }
+
+  &:hover {
+    background-color: $grey-03;
+    #identity {
+      color: $grey-9;
+    }
+  }
+}

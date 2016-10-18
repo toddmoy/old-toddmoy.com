@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  border: $border-button;
+  font-size: $font-size-button;
+  font-family: $font-family-button;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0.7em 1em;
+  letter-spacing: 2px;
+  color: $font-color-button;
+  &:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+  }
+}
+
+.button--contact {
+  display: block;
+  margin-bottom: 1em;
+  @media (min-width: $bp-sm) {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}

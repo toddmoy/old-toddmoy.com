@@ -1,0 +1,24 @@
+$unit: 8px;
+$nav-height: 96px;
+
+// Breakpoints
+
+$bp-1: 320px;
+$bp-2: 800px;
+$bp-3: 1024px;
+$bp-4: 1440px;
+$bp-5: 1920px;
+
+// Colors
+
+$grey-03:      #f7f7f7;
+$grey-03-rgba: rgba(0, 0, 0, 0.03);
+$grey-7:       #4c4c4c;
+$grey-7-rgba:  rgba(0, 0, 0, 0.7);
+$grey-9:       #191919;
+$grey-9-rgba:  rgba(0, 0, 0, 0.9);
+
+// Typography
+
+$font-secondary-1: "helvetica neue", helvetica, sans-serif;
+$font-primary: #{$unit * 2.25}/#{$unit * 4} georgia, serif;

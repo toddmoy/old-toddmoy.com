@@ -1,0 +1,28 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Article">
+  <head>
+    <title><%= current_page.data.page_title || 'Todd Moy' %></title>
+
+    <link rel="icon" type="image/png" href="<%= @site_favicon_image %>" />
+
+    <%= stylesheet_link_tag "all" %>
+    <%= javascript_include_tag  "all" %>
+
+    <%= partial "partials/global/head-meta" %>
+    <%= partial "partials/global/ga" %>
+    <%= partial "partials/global/segment" %>
+  </head>
+
+  <body id="main" class="<%= page_classes %>">
+
+    <% if (current_page.url != "/" && current_page.url != "/404.html") %>
+    <%= partial "partials/global/header" %>
+    <% end %>
+
+    <%= yield %>
+
+    <% if (current_page.url != "/404.html") %>
+    <%= partial "partials/global/footer" %>
+    <% end %>
+  </body>
+</html>

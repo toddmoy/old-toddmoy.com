@@ -1,0 +1,28 @@
+html, body {
+  min-height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+body {
+  background-color: #fff;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bordered {
+  border: solid #ddd 1px;
+}

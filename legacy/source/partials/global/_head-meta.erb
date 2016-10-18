@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- standard stuff -->
+<meta name="description" content="<%= current_page.data.summary || @site_description %>" />
+
+<!-- Schema.org markup for Google+ -->
+<meta itemprop="name" content="<%= current_page.data.page_title || @site_name %>">
+<meta itemprop="description" content="<%= current_page.data.summary || @site_description %>">
+<meta itemprop="image" content="<%= @site_default_image %>">
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="<%= @site_default_image %>">
+<meta name="twitter:site" content="<%= @site_owner_twitter_handle %>">
+<meta name="twitter:title" content="<%= current_page.data.page_title || @site_name %>">
+<meta name="twitter:description" content="<%= current_page.data.summary || @site_description %>">
+<meta name="twitter:creator" content="@site_owner_twitter_handle">
+
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<!-- <meta name="twitter:image:src" content="http://www.example.com/image.html"> -->
+
+<!-- Open Graph data -->
+<meta property="og:title" content="<%= current_page.data.page_title || @site_name %>" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="<%= current_page.url %>" />
+<meta property="og:image" content="<%= @site_default_image %>" />
+<meta property="og:description" content="<%= current_page.data.summary || @site_description %>" />
+<meta property="og:site_name" content="<%= @site_name %>" />
+<!-- <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" /> -->
+<!-- <meta property="article:modified_time" content="2013-09-16T19:08:47+01:00" /> -->
+<!-- <meta property="article:section" content="Article Section" /> -->
+<!-- <meta property="article:tag" content="Article Tag" /> -->
+<!-- <meta property="fb:admins" content="Facebook numberic ID" /> -->

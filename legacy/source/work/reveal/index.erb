@@ -1,0 +1,102 @@
+---
+page_title: Reveal App
+client: Reveal Mobile Insights
+project: App Design
+description: After establishing a proof-of-concept MVP, I redesigned the app so that they could go to market.
+---
+
+<div class="case-story__chapter">
+  <p>Reveal enables iOS and Android app publishers to deliver targeted ads to their users. Their system contains two majoy components: an <abbr title="software development kit">SDK</abbr> installed in the app and a web-based analytics / targeting tool, which is the subject of this case study.</p>
+  <p>After building an <abbr title="minimum viable product">MVP</abbr> to demonstrate the efficacy of their system, they hired Viget to design the go-to-market UI.</p>
+  <p>I led the experience vision for this project. This included:</p>
+  <div class=" case-story__matrix case-story__matrix--2col">
+    <div class="item">
+      <h3>User Research</h3>
+      <p>Interview and observe ad traffickers as they go about their work.</p>
+    </div>
+    <div class="item">
+      <h3>UI Design</h3>
+      <p>Sketching, interaction design, and prototyping.</p>
+    </div>
+  </div>
+</div>
+
+<div class="case-story__chapter case-story__chapter--lightGrey">
+  <h2>Discovery</h2>
+  <p>I started out by holding a kickoff session where we discussed the current interface, how it worked, its issues, and the founders' visions for the future. Critically, we spent time discussing how the system would be used and by whom.</p>
+  <p>In descending priority, these types of users included:</p>
+  <ol>
+    <li>Traffickers&mdash;the people who create the targeting criteria, which is later input into an ad serving platform like <abbr title="Doubleclick for Publishers">DFP</abbr>.</li>
+    <li>Salespeople&mdash;people who sell ad inventory to advertisers.</li>
+    <li>Publishers&mdash;app owners who are interested in characteristics of their users.</li>
+  </ol>
+  <p>For the priority group, I conducted interviews and contextual inquiry to understand how they did their job and their goals. This included exploring their entire workflow: the tools they used, who they collaborated with, and the challenges / pressures they faced.</p>
+  <p>Because of resource constraints, we relied on stakeholder knowledge for the remaining two groups.</p>
+</div>
+
+<div class="case-story__chapter">
+  <h2>Ideation</h2>
+
+  <p>The excitement around the redesign left no shortage of ideas to pursue. To determine what was important, I led sketching sessions to make ideas concrete quickly. After on-site whiteboarding, I worked asynchronously, sending annotated sketches until the UI was stable enough for high-fidelity wireframing.</p>
+
+  <figure class="bordered">
+    <img src="/assets/placeholder-800.svg" data-src="assets/sketch.png" alt="Sketch" />
+  </figure>
+</div>
+
+<div class="case-story__chapter case-story__chapter--nearBlack">
+  <h2>The Dashboard</h2>
+  <p>The Dashboard is the hub of the application. It lets ad traffickers quickly see how many impressions their apps are delivering to certain types of users.</p>
+
+  <figure>
+    <img src="/assets/placeholder-800.svg" data-src="assets/dashboard.png" alt="Search" />
+  </figure>
+  <h3>Enabling comparison</h3>
+  <p>Comparison controls were kept simple for the first release: only previous period and previous year are permitted. When two date ranges are compared, the charts adapt to focus on the change between periods. </p>
+
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/dashboard-comparison-1.png" alt="Dashboard with comparison range" />
+  </figure>
+  <figure class="full-bleed">
+    <img src="/assets/placeholder-2000.svg" data-src="assets/dashboard-comparison-2.png" alt="Dashboard with comparison range" />
+  </figure>
+</div>
+
+<div class="case-story__chapter case-story__chapter--mediumGrey">
+  <h2>Building an audience</h2>
+  <p>Publishers sell ad inventory to very specific types of users, which we call <em>Audiences</em>. These targeted groups are created by picking attributes that define them: income, gender, location, political affiliation, and more.</p>
+  <figure>
+    <img src="/assets/placeholder-800.svg" data-src="assets/audience-edit.png" alt="Audience builder" />
+  </figure>
+
+  <h3>Sculpting audiences</h3>
+  <p>Ad traffickers are focused on hitting a certain number of impressions. At the same time, they want to serve impressions to the right people. These goals are often in conflict, a tug-of-war between appropriate size and appropriate precision.</p>
+  <p>To balance these goals, traffickers <em>sculpt the audience</em> by adding and removing criteria to best hit their impression total.</p>
+  <p>The UI improves this experience in two ways:</p>
+  <ol>
+    <li>When a criteria is added or removed, the Estimated Impressions counter updates in real-time. This sticks in place as they scroll, ensuring it's always visible.</li>
+    <li>When hovering over any criteria, the result of adding or removing the item is shown. This allows them to see how their impressions will change before interacting.</li>
+  </ol>
+  <figure>
+    <img src="/assets/placeholder-800.svg" data-src="assets/sculpting.png" alt="Sculpting features" />
+  </figure>
+
+  <h3>Grouping audiences</h3>
+  <p>Users can also string together groups of attributes. Simple boolean grouping is allowed.</p>
+  <p>Only one level of grouping is allowed. To enable this in the UI, users can only choose one comparison operator&mdash; <code>and</code> or <code>or</code>&mdash;but not both. Changing the radio button at the top changes the ones below.</p>
+  <figure>
+    <img src="/assets/placeholder-800.svg" data-src="assets/audience-grouping-1.png" alt="Audience grouping" />
+  </figure>
+</div>
+
+<div class="case-story__chapter">
+  <h2>Credits</h2>
+
+  <dl>
+    <dt>Agency</dt> <dd>Viget</dd>
+    <dt>UX Design</dt> <dd>Todd Moy</dd>
+    <dt>Visual Design</dt> <dd>Peyton Crump</dd>
+    <dt>Front-end Development</dt> <dd>Nate Hunzaker, Solomon Hawk</dd>
+    <dt>Project Management</dt> <dd>Ben Eckerson</dd>
+  </dl>
+</div>

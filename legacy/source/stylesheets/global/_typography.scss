@@ -1,0 +1,145 @@
+// General
+
+body {
+  font-family: $font-family-body;
+  font-weight: $font-weight-body;
+  font-size: $font-size-body;
+  line-height: $line-height-body;
+  color: $font-color-body;
+  @media (min-width: $bp-md) {
+    font-size: $font-size-body;
+    line-height: $line-height-body;
+  }
+}
+
+::selection {
+  background-color: yellow;
+  color: black;
+}
+
+// Headings
+
+h1,
+.h1 {
+  font-family: $font-family-header;
+  font-size: $font-size-body * 2;
+  line-height: $line-height-body;
+  @media (min-width: $bp-md) {
+    font-size: $font-size-body * 2.5;
+    line-height: $line-height-body * 0.9;
+  }
+  @media (min-width: $bp-lg) {
+    font-size: $font-size-body * 3;
+    line-height: $line-height-body * 0.8;
+  }
+}
+
+h2,
+.h2 {
+  font-size: $font-size-body * 1.2;
+  font-family: $font-family-header;
+  font-weight: 300;
+  line-height: $line-height-body * 0.7;
+  margin-bottom: 1em;
+  // text-transform: uppercase;
+}
+
+h3,
+.h3 {
+  font-family: $font-family-header-2;
+  font-weight: bold;
+  font-size: $font-size-body * 0.6;
+  line-height: $line-height-body;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h4,
+.h4 {
+  font-size: $font-size-body * 1.25;
+  line-height: $line-height-body * 0.9;
+  @media (min-width: $bp-md) {
+    line-height: $line-height-body;
+  }
+}
+
+// Lists
+
+ol,
+ul { }
+
+li {
+  margin-bottom: 1em;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+dt {
+  font-family: $font-family-header-2;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+dt,
+dd {
+  font-size: $font-size-body * 0.6;
+  border-top: solid #dedede 1px;
+  flex: 0 0 50%;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+// Links
+
+a {
+  color: $color-accent-3;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Tables
+
+table {
+  width: 100%;
+}
+
+tr {
+  border-bottom: solid #f0f0f0 1px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 0;
+}
+
+// Other
+
+hr {
+  border: solid #f0f0f0 1px;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.7em;
+  margin: 5em 0 1em 0;
+  color: #999;
+}
+
+acronym {
+  border-bottom: dotted $font-color-body 1px;
+  cursor: help;
+}
+
+.small-caps {
+  font-size: 0.7em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

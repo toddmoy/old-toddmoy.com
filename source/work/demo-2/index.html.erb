@@ -1,0 +1,44 @@
+---
+title: Demo 2
+---
+
+<section class="cover scene_element scene_element--fadeinup">
+  <div class="container">
+    <h1 class="page__title">Demo 2</h1>
+    <p class="page__summary"><%= lorem.sentences 2 %></p>
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h1>H1 <%= lorem.sentence %></h1>
+    <h2>H2 <%= lorem.sentence %></h2>
+    <h3>H3 <%= lorem.sentence %></h3>
+    <h4>H4 <%= lorem.sentence %></h4>
+    <h5>H5 <%= lorem.sentence %></h5>
+    <h6>H6 <%= lorem.sentence %></h6>
+    <p>P <%= lorem.paragraph %></p>
+    <p>P <%= lorem.paragraph %></p>
+    <ul>
+      <li>ULLI <%= lorem.sentence %></li>
+      <li>ULLI <%= lorem.sentence %></li>
+      <li>ULLI <%= lorem.sentence %></li>
+    </ul>
+    <p>P <%= lorem.paragraph %></p>
+    <ol>
+      <li>OLLI <%= lorem.sentence %></li>
+      <li>OLLI <%= lorem.sentence %></li>
+      <li>OLLI <%= lorem.sentence %></li>
+      <li><a href="/work/demo-1/">Demo 1</a></li>
+    </ol>
+    <figure>
+      <img src="//placehold.it/2000/1400" />
+      <figcaption>FIGCAPTION <%= lorem.sentence %></figcaption>
+    </figure>
+    <hr />
+  </div>
+</section>
+
+<section class="chapter chapter--grey-9">
+  <%= partial "partials/work-grid" %>
+</section>

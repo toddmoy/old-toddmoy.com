@@ -1,5 +1,7 @@
 $unit: 8px;
 $nav-height: 96px;
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 
 // Breakpoints
 
@@ -13,6 +15,10 @@ $bp-5: 1920px;
 
 $grey-03:      #f7f7f7;
 $grey-03-rgba: rgba(0, 0, 0, 0.03);
+$grey-1:       #e5e5e5;
+$grey-1-rgba:  rgba(0, 0, 0, 0.1);
+$grey-2:       #ccc;
+$grey-2-rgba:  rgba(0, 0, 0, 0.2);
 $grey-7:       #4c4c4c;
 $grey-7-rgba:  rgba(0, 0, 0, 0.7);
 $grey-9:       #191919;
@@ -20,5 +26,5 @@ $grey-9-rgba:  rgba(0, 0, 0, 0.9);
 
 // Typography
 
-$font-secondary-1: "helvetica neue", helvetica, sans-serif;
-$font-primary: #{$unit * 2.25}/#{$unit * 4} georgia, serif;
+$font-secondary-1: "Roboto Mono", "helvetica neue", helvetica, sans-serif;
+$font-primary: #{$unit * 2.25}/#{$unit * 4} 'Roboto Mono', georgia, serif;

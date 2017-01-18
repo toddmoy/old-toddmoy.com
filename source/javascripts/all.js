@@ -29,3 +29,10 @@ $(function(){
   },
   smoothState = $('#main').smoothState(options).data('smoothState');
 });
+
+$(document).ready(function() {
+  $(".subnav-trigger").on('click', function(e){
+    e.preventDefault();
+    $(this).parents(".nav-primary").toggleClass("nav-primary--open");
+  });
+});

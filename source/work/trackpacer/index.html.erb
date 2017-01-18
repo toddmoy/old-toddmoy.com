@@ -1,0 +1,127 @@
+---
+title: Trackpacer
+summary: Chasing a beam of light
+---
+
+<section class="cover scene_element scene_element--fadeinup">
+  <div class="container">
+    <h1 class="page__title"><%= current_page.data.title %></h1>
+    <p class="page__summary"><%= current_page.data.summary %></p>
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Overview</h2>
+    <div class="chapter__body">
+      <p>Trackpacer is a digital "track rabbit" that helps competitive runners train harder. It's a controllable beam of light that orbits a 400 meter track, illuminated by thousands of LEDs and driven by Arduino-compatible microcontrollers. Coaches and runners control the pace, distance, and intervals of the pacer using an iOS app.</p>
+      <p>After a React-based prototype had been created, I was brought in to design the user interface. This included:</p>
+      <ul>
+        <li><strong>UI Design</strong> - Sketching, interaction design, prototyping, and final art production.</li>
+        <li><strong>Feature Definition</strong> - Planning and design for enhancements like saved workouts and a wearable app.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--img-flush-bottom">
+  <img src="potts-field.jpg" class="greyscale" alt="" />
+</section>
+
+<section class="chapter chapter--grey-03 chapter--img-flush-bottom">
+  <div class="container">
+    <img src="hero.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">The App</h2>
+    <div class="chapter__body">
+      <p>The main screen displays workout stats like distance, pace, and intervals.</p>
+      <p>Circling the perimeter of the screen is the track. The pacer orbits this in real-time, offering additional feedback to the coach — important in bright conditions when the pacer may not be easily visible from afar.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="contextual-controls.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Changing Settings</h2>
+    <div class="chapter__body">
+      <p>Users can swipe between predefined distance settings or enter one numerically. A custom keypad guards against invalid input and makes choosing units easy. Pacer color can be tuned for best visibility in changing light conditions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="changing-settings.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Passing Control</h2>
+    <div class="chapter__body">
+      <p>Inevitably, multiple users will try to use the system simultaneously. A user who wishes to use the track can request control. Doing so messages the current “owner” who can choose to pass control or ignore the request.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="control-delegation.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Detaching from the Track</h2>
+    <div class="chapter__body">
+      <p>While control of the track is released when the owner walks out of range, she can also do this manually. Pulling the screen down past a certain point—in essence, away from the track—disconnects the app from the track.</p>
+      <p>An animated icon depicting a plug pulling away from a socket provides feedback where this threshold lies. The track UI dims to draw attention to the message.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="detaching.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Companion App</h2>
+    <div class="chapter__body">
+      <p>The simple UI was easily translated to a wearable form factor. This natural extension allows a coach to start and stop the pacer with a tap. Saved workouts can be changed with a swipe.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="watch.png" class="greyscale" alt="" />
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="container">
+    <h2 class="chapter__title">Case Study</h2>
+    <div class="chapter__body">
+      <p>Our corporate site was in the midst of a redesign, but we wanted to tell the story of creating TrackPacer in an engaging way. I collaborated on the design of this one-off case story page with Billy French.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter chapter--grey-03">
+  <div class="container">
+    <img src="case-story.png" class="greyscale" alt="" />
+  </div>
+</section>

@@ -8,22 +8,21 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
+    <title><%= current_page.data.title || "Todd Moy" %></title>
+    <meta name="description" content="<%= current_page.data.summary || '' %>" />
+    <%= partial "partials/seo-metadata" %>
 
     <%= stylesheet_link_tag "all" %>
   </head>
 
   <body class="<%= page_classes %>">
-    <nav id="nav-primary">
-      <div class="container">
-        <a id="identity"  href="/">Todd Moy</a>
-      </div>
-    </nav>
+    <%= partial 'partials/nav' %>
     <div id="main" class="scene">
       <%= yield %>
     </div>
     <%= javascript_include_tag  "all" %>
     <%= javascript_include_tag  "jquery.min" %>
     <%= javascript_include_tag  "jquery.smoothState.min" %>
+    <%= partial "partials/analytics" %>
   </body>
 </html>

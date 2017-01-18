@@ -15,3 +15,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 # Grid
 gem "neat"
+
+# Autoprefix CSS
+gem "middleman-autoprefixer"

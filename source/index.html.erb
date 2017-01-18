@@ -1,7 +1,35 @@
 ---
-title: Welcome to Middleman
+title: Todd Moy
 ---
 
-<section class="chapter chapter--grey-9">
-  <%= partial "partials/work-grid" %>
+<style type="text/css">
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+.half {
+  width: 50%;
+  height: 100%;
+  min-height: 100%;
+}
+.nav {
+  background-color: white;
+}
+</style>
+
+<section class="chapter cover scene_element scene_element--fadeinup">
+  <div class="container">
+    <div class="">
+      <p class="h4">Todd Moy</p>
+      <p class="h3">Product Design. Boulder, CO.</p>
+      <p><a href="mailto:todd.moy@gmail.com">Email</a> • <a href="//twitter.com/toddmoy">Twitter</a> • <a href="l//inkedin.com/in/toddmoy">LinkedIn</a>.</p>
+    </div>
+  </div>
 </section>
+
+
+<%= partial "partials/projects-nav" %>
+
+<%= partial "partials/writing-nav" %>
+
+<%= partial "partials/presentations-nav" %>

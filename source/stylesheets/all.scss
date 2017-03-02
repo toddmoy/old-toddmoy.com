@@ -1,15 +1,485 @@
-@import "global/variables";
-@import "global/mixins";
-@import "global/normalize";
-@import "global/typography";
-@import "global/structure";
-@import "global/page-transitions";
-@import "global/forms";
-@import "global/footer";
-@import "global/header";
-@import "patterns/case-story";
-@import "patterns/devices";
-@import "pages/homepage";
-// @import "twentytwenty/scss/twentytwenty";
-// @import "bourbon/app/assets/stylesheets/bourbon";
-// @import "neat/app/assets/stylesheets/neat";
+@import "base/reset";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+
+
+// Variables
+$unit-a: 8px;
+$container-width: 1400px;
+$container-width--thin: 700px;
+$bp-small: 600px;
+$bp-medium: 900px;
+$bp-large: $container-width;
+$color-a: #4C4C4C;
+$bg-color: #ffffff;
+$font-family-a: "Open Sans", "Helvetica Neue", helvetica, sans-serif;
+$font-scale: 1.5;
+$font-size-base: $unit-a * 2;
+$font-size-small: $unit-a * 1.5;
+
+
+
+// Colors
+
+body {
+  background-color: $bg-color;
+  color: $color-a;
+}
+
+hr {
+  border-top: solid $color-a 1px;
+  width: 100%;
+}
+
+
+
+// Utilities
+//   - Global box sizing reset.
+//   - Global easing.
+//   - Standard bottom margin for all block level elements.
+//   - Utility classes for adding (t)op and (b)ottom margins.
+
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+
+h1, h2, h3, h4, h5, p, ol, ul, dl, hr, table, pre, address, blockquote {
+  margin-bottom: $unit-a * 2;
+
+  @media screen and (min-width: $bp-small) {
+    margin-bottom: $unit-a * 5;
+  }
+}
+
+
+.ma-reg {
+  margin: $unit-a * 2 !important;
+
+  @media screen and (min-width: $bp-small) {
+    margin: $unit-a * 4 !important;
+  }
+}
+
+
+.mb-reg {
+  margin-bottom: $unit-a * 2 !important;
+
+  @media screen and (min-width: $bp-small) {
+    margin-bottom: $unit-a * 5 !important;
+  }
+}
+
+
+.mt-reg {
+  margin-top: $unit-a * 2 !important;
+
+  @media screen and (min-width: $bp-small) {
+    margin-top: $unit-a * 4 !important;
+  }
+}
+
+
+.mb-lrg { /* todo */ }
+
+
+.mt-lrg { /* todo */ }
+
+
+.mb-xl { /* todo */ }
+
+
+.mb-xxl { /* todo */ }
+
+
+.mb-xxl {
+  margin-bottom: $unit-a * 5 !important;
+
+  @media screen and (min-width: $bp-small) {
+    margin-bottom: $unit-a * 25 !important;
+  }
+}
+
+
+.mt-xxl {
+  margin-top: $unit-a * 5 !important;
+
+  @media screen and (min-width: $bp-small) {
+    margin-top: $unit-a * 25 !important;
+  }
+}
+
+
+
+// Grid
+//   - 12 equal-width columns with no padding or margin.
+//   - container > column.
+//   - Utility classes for offsetting columns.
+
+.container,
+.container--thin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: $container-width;
+  padding-left: $unit-a * 2;
+  padding-right: $unit-a * 2;
+  width: 100%;
+}
+
+
+.container--thin {
+  max-width: $container-width--thin;
+}
+
+
+[class*='col-'] {
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+
+.col-1  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(1/12);
+  }
+}
+
+
+.col-2  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(2/12);
+  }
+}
+
+
+.col-3  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(3/12);
+  }
+}
+
+
+.col-4  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(4/12);
+  }
+}
+
+
+.col-5  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(5/12);
+  }
+}
+
+
+.col-6  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(6/12);
+  }
+}
+
+
+.col-7  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(7/12);
+  }
+}
+
+
+.col-8  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(8/12);
+  }
+}
+
+
+.col-9  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(9/12);
+  }
+}
+
+
+.col-10  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(10/12);
+  }
+}
+
+
+.col-11  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+
+  @media screen and (min-width: $bp-medium) {
+    width: percentage(11/12);
+  }
+}
+
+
+.col-12  {
+  @media screen and (min-width: $bp-small) {
+    width: percentage(12/12);
+  }
+}
+
+
+
+// Typography
+//   - Set all elements to the the same style.
+//   - <H*> size based on a regular scale.
+//   - Utility classes for alignment.
+
+body {
+  font-family: $font-family-a;
+  font-size: $font-size-base;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: $font-size-base * $font-scale;
+  text-transform: none;
+}
+
+
+h1, .h1 {
+  font-family: $font-family-a;
+  font-size: $font-size-base * $font-scale * 2;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: normal;
+  line-height: $font-size-base * $font-scale * 2;
+  text-transform: none;
+}
+
+
+h2, .h2 {
+  font-family: $font-family-a;
+  font-size: $font-size-base * $font-scale;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: $font-size-base * $font-scale * 2;
+  text-transform: none;
+}
+
+
+h3, .h3 {
+  font-family: $font-family-a;
+  font-size: $font-size-base;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: $font-size-base;
+  text-transform: uppercase;
+}
+
+
+h4, .h4 {
+  font-family: $font-family-a;
+  font-size: $font-size-base;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: $font-size-base;
+  text-transform: none;
+}
+
+
+h5, .h5 {
+  font-family: $font-family-a;
+  font-size: $font-size-base;
+  font-style: italic;
+  line-height: $font-size-base;
+  text-transform: none;
+}
+
+
+ul {
+  list-style-type: disc;
+
+  & ul {
+    margin-left: 20px;
+  }
+}
+
+
+ol {
+  list-style-type: decimal;
+
+  & ol {
+    margin-left: 20px;
+  }
+}
+
+
+dl { /* todo */ }
+
+
+.ta-l {
+  text-align: left;
+}
+
+
+.ta-c {
+  text-align: center;
+}
+
+
+.ta-r {
+  text-align: right;
+}
+
+
+
+// Tables
+
+table {
+  width: 100%;
+
+  & * {
+    @extend .ta-l;
+  }
+
+
+  th {
+    @extend .h4;
+  }
+
+  th,
+  td {
+    padding-bottom: $unit-a;
+    padding-top: $unit-a;
+  }
+
+  tr {
+    border-bottom: solid $color-a 1px;
+  }
+
+  thead {
+    border-bottom: solid $color-a 2px;
+  }
+}
+
+
+
+// Media
+//   - Images
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+
+embed { /* todo */ }
+
+
+
+// Components
+
+// Components / Header
+
+.header {
+  display: flex;
+  flex-direction: row;
+
+  .logo {
+    justify-content: flex-start;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  a {
+    color: $color-a;
+    display: block;
+    flex: 0 1 auto;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-right: $unit-a * 3;
+    padding-bottom: $unit-a * 5;
+    padding-top: $unit-a * 5;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+
+.footer { /* todo */ }
+
+
+.card {
+  display: block;
+  position: relative;
+  color: #fff;
+  background-color: $color-a;
+
+  @at-root #{&}--overlay {
+    left: 0;
+    margin: $unit-a * 4;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    .card--overlay {
+      opacity: 1;
+      transform: translateY($unit-a);
+    }
+
+    img {
+      opacity: 0.3;
+    }
+  }
+}

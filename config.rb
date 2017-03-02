@@ -28,7 +28,7 @@ page "/sitemap.xml", :layout => false
 
 page "/", :layout => :homepage
 
-with_layout :case_story do
+with_layout :work do
   page "/work/*"
 end
 
